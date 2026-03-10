@@ -4,14 +4,23 @@ title: Factions
 
 # Factions
 
-Organizations that shape events across the Realms.
+Organizations, alliances, and power blocs that influence events across the Realms.
 
-## In this section
+## In This Section
 
-- Goals and methods
-- Areas of influence
-- Allies and rivals
+Faction pages should capture:
+- goals and operating methods
+- areas of influence
+- major allies, rivals, and pressure points
 
-## Current entries
+## Current Entries
 
 - [[factions/council-of-six|Council of Six]]
+- [[factions/war-wizards|War Wizards]]
+- [[factions/red-wizards-of-thay|Red Wizards of Thay]]
+
+## Related
+
+- [[nations-realms/index|Nations & Realms]]
+- [[settlements/index|Settlements]]
+- [[people/index|People]]

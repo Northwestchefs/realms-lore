@@ -4,10 +4,22 @@ title: Landmarks
 
 # Landmarks
 
-Distinct places of story importance: ruins, roads, dungeons, monuments, and natural wonders.
+Ruins, roads, magical sites, monuments, and natural wonders with recurring story value.
 
-## In this section
+## In This Section
 
-- Why it matters
-- Who controls it
-- Access and dangers (player-safe)
+Landmark pages should answer:
+- why this site matters now
+- who influences access or control
+- what opportunities and dangers players can expect
+
+## Current and Suggested Stubs
+
+- [[landmarks/undermountain|Undermountain]]
+- [[landmarks/dragonmere|Dragonmere]]
+
+## Related
+
+- [[regions/index|Regions]]
+- [[settlements/index|Settlements]]
+- [[factions/index|Factions]]

@@ -4,14 +4,28 @@ title: Faiths
 
 # Faiths
 
-Deities, churches, and religious traditions.
+Deities, churches, cults, and religious traditions that visibly shape life in the Realms.
 
-## In this section
+## How to Use This Section
 
-- Divine portfolios
-- Worship practices
-- Temple presence by settlement
+Faith pages should focus on player-facing understanding:
+- common public role of the faith
+- where worship is influential
+- likely allies, rivals, and civic friction points
 
-## Future example path
+## Current Entries
 
-- Helm can be added here and cross-linked to nations, settlements, and noble houses.
+- [[faiths/waukeen|Waukeen]]
+- [[faiths/tyr|Tyr]]
+
+## Linked Nation Examples
+
+- [[nations-realms/amn|Amn]]
+- [[nations-realms/cormyr|Cormyr]]
+- [[nations-realms/mulhorand|Mulhorand]]
+
+## Related
+
+- [[settlements/index|Settlements]]
+- [[factions/index|Factions]]
+- [[people/index|People]]

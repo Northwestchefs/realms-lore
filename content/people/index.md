@@ -4,10 +4,22 @@ title: People
 
 # People
 
-Important NPCs and historical figures known to players.
+Important public figures, rulers, agents, and historical names known to player characters.
 
-## In this section
+## Page Expectations
 
-- Public profile
-- Affiliations
-- Reputation and known actions
+People pages should remain concise and campaign-usable:
+- public profile and reputation
+- affiliations and likely leverage
+- what this person is useful for in play
+
+## Current and Suggested Stubs
+
+- [[people/alusair-obarskyr|Alusair Obarskyr]]
+- [[people/szass-tam|Szass Tam]]
+
+## Related
+
+- [[nations-realms/index|Nations & Realms]]
+- [[factions/index|Factions]]
+- [[noble-houses/index|Noble Houses]]

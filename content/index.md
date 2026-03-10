@@ -1,34 +1,39 @@
 ---
 title: Forgotten Realms Lore Guide
-description: A player-facing Forgotten Realms lore wiki for campaign play.
+description: A player-facing Forgotten Realms lore vault for campaign play.
 ---
 
 # Forgotten Realms Lore Guide
 
-Welcome to a player-facing guide to the **Forgotten Realms**.
-
-This site is designed for players first: clear overviews, connected pages, and quick paths to the lore that matters at the table.
+Welcome to a player-facing guide to the **Forgotten Realms** built for Obsidian and Quartz.
 
 ## Start Here
 
-The Forgotten Realms is a vast fantasy world of ancient empires, living faiths, competing factions, and famous cities. Use the sections below to learn the setting one layer at a time.
+Use this vault as a layered reference:
+1. [[world/index|World]] for broad context
+2. [[regions/index|Regions]] for macro geography
+3. [[nations-realms/index|Nations & Realms]] for politics and power
+4. [[settlements/index|Settlements]], [[faiths/index|Faiths]], [[factions/index|Factions]], and [[people/index|People]] for campaign-facing detail
 
-## Browse Paths
+## Core Hubs
 
-- [[world/index|Explore the World]]
-- [[regions/index|Browse Regions]]
-- [[nations-realms/index|View Nations & Realms]]
-- [[settlements/index|Visit Settlements]]
-- [[faiths/index|Learn the Faiths]]
-- [[noble-houses/index|Explore Noble Houses]]
-- [[people/index|Meet Important People]]
-- [[player-resources/index|Read Player Resources]]
+- [[world/index|World]]
+- [[regions/index|Regions]]
+- [[nations-realms/index|Nations & Realms]]
+- [[settlements/index|Settlements]]
+- [[faiths/index|Faiths]]
+- [[factions/index|Factions]]
+- [[noble-houses/index|Noble Houses]]
+- [[people/index|People]]
+- [[landmarks/index|Landmarks]]
+- [[player-resources/index|Player Resources]]
 
-## New to the Setting?
+## Use at the Table
 
-Start with **World**, then **Regions**, then **Nations & Realms**.
-After that, jump into **Settlements**, **Faiths**, and **People** as your campaign introduces them.
+- Follow links outward from a current adventure location.
+- Keep unknown details flexible for your campaign's era.
+- Use stubs as prompts for future sessions rather than hard canon mandates.
 
 ---
 
-> This repository intentionally excludes DM-only secrets and spoiler material.
+> This repository intentionally avoids DM-only secret revelations and keeps lore broadly player-safe.

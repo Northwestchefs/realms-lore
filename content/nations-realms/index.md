@@ -8,17 +8,16 @@ tags:
 
 # Nations & Realms
 
-Hub for nation-scale political entities in the [[world/index|Forgotten Realms]], including sovereign states, kingdoms, empires, republics/oligarchies/magocracies, confederations, leagues, politically distinct realm-scale regions, and major city-state polities.
+Hub for nation-scale political entities in the [[world/index|Forgotten Realms]], including sovereign states, kingdoms, empires, republics, magocracies, confederations, leagues, and major city-state polities.
 
 ## Major Nations and Realms
-
-Classic and widely recognized nation-scale polities.
 
 - [[nations-realms/aglarond|Aglarond]]
 - [[nations-realms/amn|Amn]]
 - [[nations-realms/calimshan|Calimshan]]
 - [[nations-realms/chessenta|Chessenta]]
 - [[nations-realms/chondath|Chondath]]
+- [[nations-realms/chult|Chult]]
 - [[nations-realms/cormyr|Cormyr]]
 - [[nations-realms/damara|Damara]]
 - [[nations-realms/evermeet|Evermeet]]
@@ -28,6 +27,7 @@ Classic and widely recognized nation-scale polities.
 - [[nations-realms/moonshae-isles|Moonshae Isles]]
 - [[nations-realms/mulhorand|Mulhorand]]
 - [[nations-realms/nimbral|Nimbral]]
+- [[nations-realms/neverwinter|Neverwinter]]
 - [[nations-realms/rashemen|Rashemen]]
 - [[nations-realms/sembia|Sembia]]
 - [[nations-realms/sespech|Sespech]]
@@ -41,26 +41,24 @@ Classic and widely recognized nation-scale polities.
 
 ## Confederations and Leagues
 
-Coordinated multi-polity entries that function as nation-scale political actors.
-
 - [[nations-realms/dalelands|Dalelands]]
 - [[nations-realms/lapaliiya|Lapaliiya]]
 - [[nations-realms/luruar|Luruar (Silver Marches)]]
 
-## Politically Distinct Regions
+## Politically Distinct Regions and City-State Polities
 
-Realm-scale regions and city-state polities treated as campaign-level political entities.
-
+- [[nations-realms/baldurs-gate|Baldur's Gate]]
 - [[nations-realms/border-kingdoms|Border Kingdoms]]
 - [[nations-realms/great-dale|Great Dale]]
 - [[nations-realms/luskan|Luskan]]
 - [[nations-realms/narfell|Narfell]]
 - [[nations-realms/samarach|Samarach]]
+- [[nations-realms/waterdeep|Waterdeep]]
 
 ## Related Content
 
 - [[regions/index|Regions]]
 - [[settlements/index|Settlements]]
 - [[factions/index|Factions]]
-- [[religions-faiths/index|Religions & Faiths]]
+- [[faiths/index|Faiths]]
 - [[world/index|World Overview]]
