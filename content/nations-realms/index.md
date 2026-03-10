@@ -8,9 +8,11 @@ tags:
 
 # Nations & Realms
 
-Hub for nation-scale political entities in the [[world/index|Forgotten Realms]], including sovereign states, confederations, leagues, politically distinct regions, and major city-state polities.
+Hub for nation-scale political entities in the [[world/index|Forgotten Realms]], including sovereign states, kingdoms, empires, republics/oligarchies/magocracies, confederations, leagues, politically distinct realm-scale regions, and major city-state polities.
 
 ## Major Nations and Realms
+
+Classic and widely recognized nation-scale polities.
 
 - [[nations-realms/aglarond|Aglarond]]
 - [[nations-realms/amn|Amn]]
@@ -39,11 +41,15 @@ Hub for nation-scale political entities in the [[world/index|Forgotten Realms]],
 
 ## Confederations and Leagues
 
+Coordinated multi-polity entries that function as nation-scale political actors.
+
 - [[nations-realms/dalelands|Dalelands]]
 - [[nations-realms/lapaliiya|Lapaliiya]]
 - [[nations-realms/luruar|Luruar (Silver Marches)]]
 
 ## Politically Distinct Regions
+
+Realm-scale regions and city-state polities treated as campaign-level political entities.
 
 - [[nations-realms/border-kingdoms|Border Kingdoms]]
 - [[nations-realms/great-dale|Great Dale]]
