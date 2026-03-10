@@ -8,15 +8,18 @@ tags:
 # {{Person Name}}
 
 ## Overview
+
 One short paragraph (2-4 lines) on who this person is and why they matter in play.
 
 ## Role / Allegiance
+
 - **Role:**
 - **Primary Allegiance:**
 - **Secondary Ties:**
 - **Base of Operations:**
 
 ## Import Statblock
+
 ```text
 Name: {{Person Name}}
 Size, type, alignment: Medium humanoid (human), neutral
@@ -56,15 +59,29 @@ None.
 
 Use the exact field order above for every NPC page. Keep this section plain-text and parser-friendly for copy/paste workflows. Do not add lore paragraphs inside this section.
 
+### SRD-backed mechanics checklist
+
+- Validate mechanic labels against `static/data/srd/reference.json` before finalizing this section.
+- Use SRD-consistent names for:
+  - ability abbreviations (`STR`, `DEX`, `CON`, `INT`, `WIS`, `CHA`)
+  - skills (for example, `Sleight of Hand`)
+  - conditions and damage types (for example, `Frightened`, `Piercing`)
+  - languages (for example, `Common`, `Thieves' Cant`)
+- Prefer recognizable SRD equipment/spell naming in actions and spellcasting entries.
+- Optional workflow helper: run `npm run npc:srd-reference` to print local canonical names.
+
 ## Description
+
 - Appearance, style, and table-facing identifiers.
 - What people notice first.
 
 ## History / Background
+
 - Publicly known background beats.
 - Era-sensitive details kept broad when canon is disputed.
 
 ## Relationships
+
 - [[people/index|People]]
 - [[factions/index|Factions]]
 - [[noble-houses/index|Noble Houses]]
@@ -75,9 +92,11 @@ Use the exact field order above for every NPC page. Keep this section plain-text
 - [[landmarks/index|Landmarks]]
 
 ## Plot Hooks
+
 - Immediate way this NPC can hire, pressure, reward, or mislead the party.
 - One complication tied to faction, law, faith, or local politics.
 
 ## Related Links
+
 - [[people/index|People]]
 - Add the most relevant nation, region, settlement, faction, faith, landmark, and person links.

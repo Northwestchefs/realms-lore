@@ -18,7 +18,8 @@
     "format": "npx prettier . --write",
     "test": "tsx --test",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
-    "srd:seed": "node scripts/srd/seed-reference.mjs"
+    "srd:seed": "node scripts/srd/seed-reference.mjs",
+    "npc:srd-reference": "node scripts/npc/print-srd-npc-reference.mjs"
   },
   "engines": {
     "npm": ">=10.9.2",
