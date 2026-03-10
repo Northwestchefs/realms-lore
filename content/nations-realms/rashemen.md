@@ -38,7 +38,7 @@ Religious and spiritual practice is woven into governance and community legitima
 Renowned light forces, berserker traditions, and terrain-savvy defenders deter invasion.
 
 ## Major Settlements
-- [[settlements/index|Immilmar]] (detail page TBD)
+- [[settlements/immilmar|Immilmar]]
 - [[settlements/index|Mulptan]] (detail page TBD)
 
 ## Factions and Power Blocs
@@ -66,5 +66,6 @@ Use Rashemen for border diplomacy, faction bargaining, travel logistics, and reg
 - [[nations-realms/index|Nations & Realms]]
 - [[nations-realms/thay|Thay]]
 - [[nations-realms/thesk|Thesk]]
+- [[settlements/immilmar|Immilmar]]
 - [[settlements/index|Settlements]]
 - [[factions/index|Factions]]

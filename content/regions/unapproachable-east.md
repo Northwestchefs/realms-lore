@@ -16,9 +16,16 @@ A broad eastern region known for volatile geopolitics, strong local identities, 
 - [[nations-realms/thay|Thay]]
 - [[nations-realms/rashemen|Rashemen]]
 - [[nations-realms/aglarond|Aglarond]]
+- [[nations-realms/thesk|Thesk]]
 
 ## Campaign Themes
-Proxy conflict, magical containment, covert operations, and frontier diplomacy.
+Proxy conflict, magical containment, covert operations, caravan security, and frontier diplomacy.
+
+## Major Gateways
+- [[settlements/velprintalar|Velprintalar]]
+- [[settlements/immilmar|Immilmar]]
+- [[settlements/telflamm|Telflamm]]
+- [[settlements/phsant|Phsant]]
 
 ## See Also
 - [[regions/index|Regions]]

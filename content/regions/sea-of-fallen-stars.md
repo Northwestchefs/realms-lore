@@ -29,6 +29,8 @@ A central inland sea that connects major trade routes, rival ports, and naval po
 - [[settlements/selgaunt|Selgaunt]]
 - [[settlements/velprintalar|Velprintalar]]
 - [[settlements/eltabbar|Eltabbar]]
+- [[settlements/lyrabar|Lyrabar]]
+- [[settlements/sarshel|Sarshel]]
 
 ## Canon Notes
 Different eras describe shifting naval power and coastal control. Keep local dominance flexible for your campaign timeline.

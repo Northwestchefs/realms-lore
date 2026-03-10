@@ -38,10 +38,10 @@ Nation-scale political entities for campaign diplomacy, travel pressure, and fac
 - [[nations-realms/damara|Damara]]
 - [[nations-realms/great-dale|Great Dale]]
 - [[nations-realms/impiltur|Impiltur]]
+- [[nations-realms/thesk|Thesk]]
 - [[nations-realms/narfell|Narfell]]
 - [[nations-realms/rashemen|Rashemen]]
 - [[nations-realms/thay|Thay]]
-- [[nations-realms/thesk|Thesk]]
 - [[nations-realms/vaasa|Vaasa]]
 
 ## Old Empires and Southern Lands

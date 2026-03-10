@@ -39,7 +39,7 @@ Border watchers, naval patrols, and local militias focus on deterrence and rapid
 
 ## Major Settlements
 - [[settlements/velprintalar|Velprintalar]] (capital)
-- [[settlements/index|Glarondar]] (detail page TBD)
+- [[settlements/glarondar|Glarondar]]
 
 ## Factions and Power Blocs
 - Border commanders and local lords
@@ -65,6 +65,7 @@ Use Aglarond for border diplomacy, faction bargaining, travel logistics, and reg
 ## See Also
 - [[nations-realms/index|Nations & Realms]]
 - [[settlements/velprintalar|Velprintalar]]
+- [[settlements/glarondar|Glarondar]]
 - [[nations-realms/thay|Thay]]
 - [[nations-realms/chondath|Chondath]]
 - [[settlements/index|Settlements]]

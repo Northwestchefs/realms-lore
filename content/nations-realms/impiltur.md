@@ -38,8 +38,8 @@ Major faiths hold visible civic roles in law, charity, and wartime mobilization.
 Maintains disciplined garrisons, coastal fleets, and anti-incursion patrols.
 
 ## Major Settlements
-- [[settlements/index|Lyrabar]] (detail page TBD)
-- [[settlements/index|Sarshel]] (detail page TBD)
+- [[settlements/lyrabar|Lyrabar]]
+- [[settlements/sarshel|Sarshel]]
 
 ## Factions and Power Blocs
 - Royal court and claimant lines
@@ -66,5 +66,7 @@ Use Impiltur for border diplomacy, faction bargaining, travel logistics, and reg
 - [[nations-realms/index|Nations & Realms]]
 - [[nations-realms/damara|Damara]]
 - [[nations-realms/thesk|Thesk]]
+- [[settlements/lyrabar|Lyrabar]]
+- [[settlements/sarshel|Sarshel]]
 - [[settlements/index|Settlements]]
 - [[factions/index|Factions]]

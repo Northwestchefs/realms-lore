@@ -38,8 +38,8 @@ Temples provide social services for mobile populations and mediate commercial di
 Route security forces and contracted guards are vital alongside local militias.
 
 ## Major Settlements
-- [[settlements/index|Telflamm]] (detail page TBD)
-- [[settlements/index|Phsant]] (detail page TBD)
+- [[settlements/telflamm|Telflamm]]
+- [[settlements/phsant|Phsant]]
 
 ## Factions and Power Blocs
 - Caravan consortiums
@@ -66,5 +66,7 @@ Use Thesk for border diplomacy, faction bargaining, travel logistics, and region
 - [[nations-realms/index|Nations & Realms]]
 - [[nations-realms/impiltur|Impiltur]]
 - [[nations-realms/rashemen|Rashemen]]
+- [[settlements/telflamm|Telflamm]]
+- [[settlements/phsant|Phsant]]
 - [[settlements/index|Settlements]]
 - [[factions/index|Factions]]

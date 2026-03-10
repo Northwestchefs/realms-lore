@@ -22,7 +22,7 @@ Macro-geography for travel planning, campaign pacing, and nation-to-nation conte
 ## Region-to-Settlement Jump Points
 - [[regions/sword-coast|Sword Coast]] → [[settlements/waterdeep-city|Waterdeep]], [[settlements/neverwinter-city|Neverwinter]], [[settlements/baldurs-gate-city|Baldur's Gate]]
 - [[regions/western-heartlands|Western Heartlands]] → [[settlements/athkatla|Athkatla]], [[settlements/suzail|Suzail]]
-- [[regions/unapproachable-east|Unapproachable East]] → [[settlements/eltabbar|Eltabbar]], [[settlements/velprintalar|Velprintalar]]
+- [[regions/unapproachable-east|Unapproachable East]] → [[settlements/eltabbar|Eltabbar]], [[settlements/velprintalar|Velprintalar]], [[settlements/immilmar|Immilmar]], [[settlements/telflamm|Telflamm]]
 - [[regions/sea-of-fallen-stars|Sea of Fallen Stars]] → [[settlements/selgaunt|Selgaunt]], [[settlements/velprintalar|Velprintalar]]
 - [[regions/old-empires|Old Empires]] → [[settlements/skuld|Skuld]], [[settlements/unthalass|Unthalass]], [[settlements/cimbar|Cimbar]]
 
