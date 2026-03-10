@@ -18,6 +18,11 @@ Public figures, rulers, and influential operators likely to matter in play.
 - [[people/brother-kestrel-vane|Brother Kestrel Vane]]
 - [[people/vesk-talandra|Vesk Talandra]]
 - [[people/ellis-fenward|Ellis Fenward]]
+- [[people/justicar-maelis-durn|Justicar Maelis Durn]]
+- [[people/factor-irielle-vann|Factor Irielle Vann]]
+- [[people/shieldcaptain-oth-brammar|Shieldcaptain Oth Brammar]]
+- [[people/magister-selene-dawnscript|Magister Selene Dawnscript]]
+- [[people/thane-korvul-icevein|Thane Korvul Icevein]]
 
 ## Browse by Nation Pressure Point
 

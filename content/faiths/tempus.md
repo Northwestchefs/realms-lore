@@ -22,6 +22,14 @@ Battle, martial honor, and the acceptance that war can reshape politics faster t
 - Commanders wanting blessing without strict moral doctrine
 - Communities on dangerous borders
 
+## Regional Footprint
+- **Unapproachable East musters:** Shrine leaders train border militias and bless emergency levies.
+- **Frontier defense culture:** Tempuran clergy often serve as chaplains, healers, and tactical advisors.
+
+## Key NPCs in the Realms
+- [[people/brother-kestrel-vane|Brother Kestrel Vane]] — Dockside battle-cleric in [[settlements/luskan-city|Luskan (City)]] on the [[regions/sword-coast|Sword Coast]].
+- [[people/thane-korvul-icevein|Thane Korvul Icevein]] — Muster chaplain in [[settlements/immilmar|Immilmar]] in the [[regions/unapproachable-east|Unapproachable East]].
+
 ## Institutions and Influence
 Shrines are common near barracks, border roads, and mustering grounds rather than large centralized hierarchies.
 
@@ -35,5 +43,6 @@ Interpretations vary by region: some temples stress discipline and defense, othe
 
 ## See Also
 - [[faiths/index|Faiths]]
+- [[regions/unapproachable-east|Unapproachable East]]
 - [[factions/war-wizards|War Wizards]]
 - [[settlements/suzail|Suzail]]
