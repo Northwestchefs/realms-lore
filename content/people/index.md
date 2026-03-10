@@ -9,6 +9,7 @@ Public figures, rulers, and influential operators likely to matter in play.
 ## Current Entries
 - [[people/alusair-obarskyr|Alusair Obarskyr]]
 - [[people/szass-tam|Szass Tam]]
+- [[people/laeral-silverhand|Laeral Silverhand]]
 
 ## Browse by Nation Pressure Point
 - [[nations-realms/cormyr|Cormyr]] → court, succession, military command

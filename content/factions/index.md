@@ -15,6 +15,7 @@ Power blocs, orders, councils, and covert networks that shape events across the 
 - [[factions/lords-alliance|Lords' Alliance]]
 - [[factions/red-wizards-of-thay|Red Wizards of Thay]]
 - [[factions/zhentarim|Zhentarim]]
+- [[factions/cult-of-the-dragon|Cult of the Dragon]]
 
 ## Nation Jump Links
 - [[nations-realms/amn|Amn]] → [[factions/council-of-six|Council of Six]]

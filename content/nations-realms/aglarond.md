@@ -20,7 +20,7 @@ Aglarond is treated here as a nation-scale realm entry for campaign planning, di
 A coastal forest realm on the eastern Sea of Fallen Stars that balances local autonomy with defense-minded statecraft.
 
 ## Geography
-Sits between [[nations-realms/thay|Thay]] and the [[sea-of-fallen-stars|Sea of Fallen Stars]], with mixed woodland interiors and vulnerable coasts.
+Sits between [[nations-realms/thay|Thay]] and the [[regions/sea-of-fallen-stars|Sea of Fallen Stars]], with mixed woodland interiors and vulnerable coasts.
 
 ## Government
 A crown framework works through local lords and city authorities, with security policy shaped by pressure from [[nations-realms/thay|Thay]].

@@ -10,6 +10,7 @@ Deities and organized faith traditions that visibly shape daily life and politic
 - [[faiths/tyr|Tyr]]
 - [[faiths/waukeen|Waukeen]]
 - [[faiths/mystra|Mystra]]
+- [[faiths/tempus|Tempus]]
 
 ## Useful Jump Links
 - **Law and civic order:** [[faiths/tyr|Tyr]] → [[nations-realms/cormyr|Cormyr]]

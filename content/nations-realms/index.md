@@ -13,6 +13,7 @@ Nation-scale political entities for campaign diplomacy, travel pressure, and fac
 ## Quick Jump by Region
 - [[regions/sword-coast|Sword Coast]]
 - [[regions/western-heartlands|Western Heartlands]]
+- [[regions/sea-of-fallen-stars|Sea of Fallen Stars]]
 - [[regions/unapproachable-east|Unapproachable East]]
 - [[regions/old-empires|Old Empires]]
 

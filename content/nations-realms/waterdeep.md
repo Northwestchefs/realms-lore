@@ -43,7 +43,7 @@ City watch structures, naval defense, hired specialists, and allied adventuring 
 ## Factions and Power Blocs
 - masked civic leadership circles
 - major merchant costers and guild alliances
-- noble houses with district-level influence
+- noble houses with district-level influence, including [[noble-houses/house-cassalanter|House Cassalanter]]
 - covert networks competing over information control
 
 ## Relations
@@ -67,4 +67,5 @@ Waterdeep supports urban intrigue, faction arbitration, investigation campaigns,
 - [[nations-realms/index|Nations & Realms]]
 - [[settlements/waterdeep-city|Waterdeep (City)]]
 - [[regions/sword-coast|Sword Coast]]
+- [[people/laeral-silverhand|Laeral Silverhand]]
 - [[factions/index|Factions]]

@@ -20,7 +20,7 @@ Chessenta is treated here as a nation-scale realm entry for campaign planning, d
 A martial city-state region that functions as a realm-scale political arena despite recurring internal fragmentation.
 
 ## Geography
-Fringes the [[sea-of-fallen-stars|Sea of Fallen Stars]] southeast basin, with fertile lowlands and strategic coastal cities.
+Fringes the [[regions/sea-of-fallen-stars|Sea of Fallen Stars]] southeast basin, with fertile lowlands and strategic coastal cities.
 
 ## Government
 Power alternates between dominant city leadership, military strongmen, and negotiated coalitions.

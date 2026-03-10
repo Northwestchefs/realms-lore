@@ -20,7 +20,7 @@ Chondath is treated here as a nation-scale realm entry for campaign planning, di
 A river-and-coast mercantile realm whose influence depends on trade corridors more than territorial depth.
 
 ## Geography
-Covers key approaches to the [[sea-of-fallen-stars|Sea of Fallen Stars]] and inland routes near [[nations-realms/sespech|Sespech]] and [[nations-realms/turmish|Turmish]].
+Covers key approaches to the [[regions/sea-of-fallen-stars|Sea of Fallen Stars]] and inland routes near [[nations-realms/sespech|Sespech]] and [[nations-realms/turmish|Turmish]].
 
 ## Government
 Governance blends civic institutions with merchant influence and regional officeholders.
