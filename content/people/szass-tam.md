@@ -11,15 +11,18 @@ tags:
 # Szass Tam
 
 ## Overview
+
 A dominant Thayan arch-necromancer for high-threat arcs involving authoritarian magic, undead projection, and destabilization in the [[regions/unapproachable-east|Unapproachable East]].
 
 ## Role / Allegiance
+
 - **Role:** Arcane autocrat and strategic antagonist.
 - **Primary Allegiance:** [[nations-realms/thay|Thay]].
 - **Secondary Ties:** [[factions/red-wizards-of-thay|Red Wizards of Thay]], conflict pressure against [[nations-realms/rashemen|Rashemen]] and [[nations-realms/aglarond|Aglarond]].
 - **Base of Operations:** [[settlements/eltabbar|Eltabbar]].
 
 ## Import Statblock
+
 ```text
 Name: Szass Tam
 Size, type, alignment: Medium undead, lawful evil
@@ -29,10 +32,10 @@ Speed: 30 ft.
 STR 12 (+1) DEX 16 (+3) CON 20 (+5) INT 22 (+6) WIS 19 (+4) CHA 20 (+5)
 Saving Throws: Con +12, Int +13, Wis +11, Cha +12
 Skills: Arcana +20, Deception +12, History +13, Insight +11, Perception +11
-Damage Vulnerabilities: radiant
-Damage Resistances: cold, lightning, necrotic
-Damage Immunities: poison
-Condition Immunities: charmed, exhaustion, frightened, poisoned
+Damage Vulnerabilities: Radiant
+Damage Resistances: Cold, Lightning, Necrotic
+Damage Immunities: Poison
+Condition Immunities: Charmed, Exhaustion, Frightened, Poisoned
 Senses: truesight 60 ft., passive Perception 21
 Languages: Common, Draconic, Infernal, Netherese, Thayan
 Challenge: 23 (50,000 XP)
@@ -61,14 +64,17 @@ Innate Spellcasting. Szass Tam's innate spellcasting ability is Charisma (spell 
 ```
 
 ## Description
+
 - Severe and controlled, speaking with ritual precision.
 - Prefers layered coercion and long plans over open confrontation.
 
 ## History / Background
+
 - Publicly associated with Thay's most feared magical regime shifts.
 - Specific victories and dates differ by edition and era; keep details broad.
 
 ## Relationships
+
 - [[factions/red-wizards-of-thay|Red Wizards of Thay]]
 - [[nations-realms/thay|Thay]]
 - [[settlements/eltabbar|Eltabbar]]
@@ -76,10 +82,12 @@ Innate Spellcasting. Szass Tam's innate spellcasting ability is Charisma (spell 
 - [[nations-realms/aglarond|Aglarond]]
 
 ## Plot Hooks
+
 - His agents race the party to recover a relic that can disrupt undead command magic.
 - Refugees ask the party to extract a defector before a Thayan retrieval team arrives.
 
 ## Related Links
+
 - [[people/index|People]]
 - [[nations-realms/thay|Thay]]
 - [[regions/unapproachable-east|Unapproachable East]]

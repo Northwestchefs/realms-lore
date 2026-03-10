@@ -11,6 +11,7 @@ tags:
 Use this format for the `## Import Statblock` section on every NPC page. This standard is optimized for plain-text copy/paste into Foundry VTT 5e statblock importer workflows.
 
 ## Rules
+
 - Keep statblocks in a fenced `text` code block.
 - Keep mechanics only; no lore paragraphs in this section.
 - Do not use tables, columns, infoboxes, or decorative layouts.
@@ -18,7 +19,23 @@ Use this format for the `## Import Statblock` section on every NPC page. This st
 - Use recognizable 5e wording: `Melee Weapon Attack:`, `Ranged Weapon Attack:`, `Hit:`, `Spellcasting.`, `Innate Spellcasting.`
 - If a section does not apply, write `None.`
 
+## SRD-backed terminology workflow
+
+- Local-first source of truth: `static/data/srd/reference.json`.
+- Run `npm run npc:srd-reference` when drafting or reviewing NPC mechanics.
+- Normalize names to SRD collections where relevant:
+  - `ability-scores`
+  - `skills`
+  - `conditions`
+  - `damage-types`
+  - `languages`
+  - `equipment-categories`
+  - curated `equipment`, `monsters`, and `spells`
+- Keep internal references stable with `endpoint:index` IDs (example: `skills:stealth`, `damage-types:piercing`) for tool-assisted generation and review.
+- Use the SRD API client (`scripts/srd/client.mjs`) only when deeper details are required and not present in the local cache.
+
 ## Required Field Order
+
 ```text
 Name:
 Size, type, alignment:
@@ -51,10 +68,12 @@ Spellcasting
 ```
 
 ## Spellcasting Notes
+
 - Use `Spellcasting.` when the NPC prepares/casts spells normally.
 - Use `Innate Spellcasting.` when abilities are innate.
 - If both apply, include both entries under the final `Spellcasting` section.
 
 ## Where to Use
+
 - Build new NPC pages from [[templates/person-npc-template|Person NPC Template]].
 - Keep NPC page structure aligned with [[people/index|People]] guidance.

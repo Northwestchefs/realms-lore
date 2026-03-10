@@ -7,6 +7,7 @@ title: People
 Public figures, rulers, and influential operators likely to matter in play.
 
 ## Current Entries
+
 - [[people/alusair-obarskyr|Alusair Obarskyr]]
 - [[people/szass-tam|Szass Tam]]
 - [[people/laeral-silverhand|Laeral Silverhand]]
@@ -19,6 +20,7 @@ Public figures, rulers, and influential operators likely to matter in play.
 - [[people/ellis-fenward|Ellis Fenward]]
 
 ## Browse by Nation Pressure Point
+
 - [[nations-realms/amn|Amn]] → underworld brokers, merchant leverage, deniable operators
 - [[nations-realms/cormyr|Cormyr]] → court, succession, military command
 - [[nations-realms/luskan|Luskan]] → dock politics, convoy security, smuggling pressure
@@ -26,6 +28,7 @@ Public figures, rulers, and influential operators likely to matter in play.
 - [[nations-realms/waterdeep|Waterdeep]] → civic elites, guild operators, covert brokers
 
 ## NPC Page Standard
+
 - Build all new NPC entries from [[templates/person-npc-template|Person NPC Template]].
 - Keep this section order on each NPC page:
   1. Overview
@@ -37,15 +40,18 @@ Public figures, rulers, and influential operators likely to matter in play.
   7. Plot Hooks
   8. Related Links
 - Follow [[reference/npc-import-standard|NPC Import Statblock Standard]] for exact formatting and field order.
+- Use [[reference/npc-srd-workflow|NPC SRD Reference Workflow]] for local SRD-backed mechanics terminology.
 - Keep the **Import Statblock** plain-text only, in a fenced `text` block, with no lore mixed into mechanics.
 - Keep lore concise and place all mechanics in the Import Statblock section only.
 
 ## Expansion Pattern
+
 - Add one notable face per high-traffic nation page.
 - Keep entries short: profile, alliances, leverage, hooks.
 - Link each person to a nation, one region, one settlement, and one faction when possible.
 
 ## Related
+
 - [[factions/index|Factions]]
 - [[faiths/index|Faiths]]
 - [[landmarks/index|Landmarks]]
