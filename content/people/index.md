@@ -10,8 +10,10 @@ Public figures, rulers, and influential operators likely to matter in play.
 - [[people/alusair-obarskyr|Alusair Obarskyr]]
 - [[people/szass-tam|Szass Tam]]
 - [[people/laeral-silverhand|Laeral Silverhand]]
+- [[people/renal-bloodscalp|Renal Bloodscalp]]
 
 ## Browse by Nation Pressure Point
+- [[nations-realms/amn|Amn]] → underworld brokers, merchant leverage, deniable operators
 - [[nations-realms/cormyr|Cormyr]] → court, succession, military command
 - [[nations-realms/thay|Thay]] → regime power, arcane hierarchy, defectors
 - [[nations-realms/waterdeep|Waterdeep]] → civic elites, guild operators, covert brokers

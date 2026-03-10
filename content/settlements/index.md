@@ -17,6 +17,8 @@ Cities, ports, market towns, and strongholds with immediate adventure value.
 - [[settlements/athkatla|Athkatla]]
 - [[settlements/murann|Murann]]
 - [[settlements/trademeet|Trademeet]]
+- [[settlements/crimmor|Crimmor]]
+- [[settlements/esmeltaran|Esmeltaran]]
 - [[settlements/suzail|Suzail]]
 - [[settlements/shadowdale|Shadowdale]]
 
@@ -44,7 +46,7 @@ Cities, ports, market towns, and strongholds with immediate adventure value.
 - [[settlements/port-nyanzaru|Port Nyanzaru]]
 
 ## Browse by Nation
-- [[nations-realms/amn|Amn]] → [[settlements/athkatla|Athkatla]], [[settlements/murann|Murann]], [[settlements/trademeet|Trademeet]]
+- [[nations-realms/amn|Amn]] → [[settlements/athkatla|Athkatla]], [[settlements/murann|Murann]], [[settlements/trademeet|Trademeet]], [[settlements/crimmor|Crimmor]], [[settlements/esmeltaran|Esmeltaran]]
 - [[nations-realms/cormyr|Cormyr]] → [[settlements/suzail|Suzail]]
 - [[nations-realms/dalelands|Dalelands]] → [[settlements/shadowdale|Shadowdale]]
 - [[nations-realms/luruar|Luruar (Silver Marches)]] → [[settlements/silverymoon|Silverymoon]]

@@ -9,12 +9,14 @@ Deities and organized faith traditions that visibly shape daily life and politic
 ## Current Entries
 - [[faiths/tyr|Tyr]]
 - [[faiths/waukeen|Waukeen]]
+- [[faiths/helm|Helm]]
 - [[faiths/mystra|Mystra]]
 - [[faiths/tempus|Tempus]]
 
 ## Useful Jump Links
 - **Law and civic order:** [[faiths/tyr|Tyr]] → [[nations-realms/cormyr|Cormyr]]
 - **Trade and mercantile influence:** [[faiths/waukeen|Waukeen]] → [[nations-realms/amn|Amn]], [[nations-realms/sembia|Sembia]]
+- **Guard duty and civic vigilance:** [[faiths/helm|Helm]] → [[nations-realms/amn|Amn]], [[regions/trade-way|Trade Way]]
 - **Arcane institutions and magical politics:** [[faiths/mystra|Mystra]] → [[nations-realms/thay|Thay]], [[nations-realms/waterdeep|Waterdeep]]
 
 ## Expansion Pattern
