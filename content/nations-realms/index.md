@@ -8,23 +8,50 @@ tags:
 
 # Nations & Realms
 
-Starter reference pages for major political powers in the [[world/index|Forgotten Realms]].
+Starter reference hub for nation-scale political entities in the [[world/index|Forgotten Realms]], including sovereign states, confederations, leagues, and major city-state polities.
 
-## Nations in this section
+## Major Nations and Realms
 
+- [[nations-realms/aglarond|Aglarond]]
 - [[nations-realms/amn|Amn]]
+- [[nations-realms/calimshan|Calimshan]]
+- [[nations-realms/chessenta|Chessenta]]
+- [[nations-realms/chondath|Chondath]]
 - [[nations-realms/cormyr|Cormyr]]
+- [[nations-realms/damara|Damara]]
+- [[nations-realms/evermeet|Evermeet]]
+- [[nations-realms/halruaa|Halruaa]]
+- [[nations-realms/impiltur|Impiltur]]
+- [[nations-realms/luiren|Luiren]]
+- [[nations-realms/moonshae-isles|Moonshae Isles]]
+- [[nations-realms/mulhorand|Mulhorand]]
+- [[nations-realms/nimbral|Nimbral]]
+- [[nations-realms/rashemen|Rashemen]]
 - [[nations-realms/sembia|Sembia]]
+- [[nations-realms/sespech|Sespech]]
+- [[nations-realms/tashalar|Tashalar]]
+- [[nations-realms/tethyr|Tethyr]]
 - [[nations-realms/thay|Thay]]
+- [[nations-realms/thesk|Thesk]]
+- [[nations-realms/turmish|Turmish]]
+- [[nations-realms/unther|Unther]]
+- [[nations-realms/vaasa|Vaasa]]
 
-## Focus Areas
+## Confederations and Leagues
 
-- Government and law
-- Economy and trade
-- Diplomacy and rivalries
-- Adventure-facing conflicts
+- [[nations-realms/dalelands|Dalelands]]
+- [[nations-realms/lapaliiya|Lapaliiya]]
+- [[nations-realms/luruar|Luruar (Silver Marches)]]
 
-## Related
+## Politically Distinct Regions
+
+- [[nations-realms/border-kingdoms|Border Kingdoms]]
+- [[nations-realms/great-dale|Great Dale]]
+- [[nations-realms/luskan|Luskan]]
+- [[nations-realms/narfell|Narfell]]
+- [[nations-realms/samarach|Samarach]]
+
+## Related Content
 
 - [[regions/index|Regions]]
 - [[settlements/index|Settlements]]
