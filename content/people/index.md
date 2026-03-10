@@ -9,15 +9,31 @@ Public figures, rulers, and influential operators likely to matter in play.
 ## Current Entries
 
 - [[people/alusair-obarskyr|Alusair Obarskyr]]
-- [[people/szass-tam|Szass Tam]]
+- [[people/davil-starsong|Davil Starsong]]
+- [[people/ellis-fenward|Ellis Fenward]]
 - [[people/laeral-silverhand|Laeral Silverhand]]
-- [[people/renal-bloodscalp|Renal Bloodscalp]]
-- [[people/thalia-brineledger|Thalia Brineledger]]
+- [[people/manshoon|Manshoon]]
+- [[people/melannor-fellbranch|Melannor Fellbranch]]
 - [[people/nymra-blackwake|Nymra Blackwake]]
+- [[people/ontharr-frume|Ontharr Frume]]
+- [[people/remallia-haventree|Remallia Haventree]]
+- [[people/renal-bloodscalp|Renal Bloodscalp]]
+- [[people/szass-tam|Szass Tam]]
+- [[people/thalia-brineledger|Thalia Brineledger]]
+- [[people/vajra-safahr|Vajra Safahr]]
+- [[people/vesk-talandra|Vesk Talandra]]
 - [[people/captain-harlon-drex|Captain Harlon Drex]]
 - [[people/brother-kestrel-vane|Brother Kestrel Vane]]
-- [[people/vesk-talandra|Vesk Talandra]]
-- [[people/ellis-fenward|Ellis Fenward]]
+
+## Faction Quick Browse
+
+- [[factions/harpers|Harpers]] → [[people/remallia-haventree|Remallia Haventree]], [[people/laeral-silverhand|Laeral Silverhand]]
+- [[factions/lords-alliance|Lords' Alliance]] → [[people/laeral-silverhand|Laeral Silverhand]], [[people/vajra-safahr|Vajra Safahr]]
+- [[factions/order-of-the-gauntlet|Order of the Gauntlet]] → [[people/ontharr-frume|Ontharr Frume]]
+- [[factions/emerald-enclave|Emerald Enclave]] → [[people/melannor-fellbranch|Melannor Fellbranch]]
+- [[factions/zhentarim|Zhentarim]] → [[people/davil-starsong|Davil Starsong]], [[people/manshoon|Manshoon]]
+- [[factions/red-wizards-of-thay|Red Wizards of Thay]] → [[people/szass-tam|Szass Tam]]
+- [[factions/shadow-thieves-athkatla|Shadow Thieves (Athkatla)]] → [[people/renal-bloodscalp|Renal Bloodscalp]]
 
 ## Browse by Nation Pressure Point
 
