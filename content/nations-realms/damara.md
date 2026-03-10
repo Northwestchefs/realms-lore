@@ -38,8 +38,8 @@ Temples play major public roles in relief, legitimacy, and mobilization during c
 Defensive armies combine noble levies, trained infantry, and monster-hunting detachments.
 
 ## Major Settlements
-- [[settlements/index|Helgabal]] (detail page TBD)
-- [[settlements/index|Heliogabalus]] (detail page TBD)
+- [[settlements/helgabal|Helgabal]]
+- [[settlements/heliogabalus|Heliogabalus]]
 
 ## Factions and Power Blocs
 - Royal court and loyal houses
@@ -66,5 +66,7 @@ Use Damara for border diplomacy, faction bargaining, travel logistics, and regio
 - [[nations-realms/index|Nations & Realms]]
 - [[nations-realms/vaasa|Vaasa]]
 - [[nations-realms/impiltur|Impiltur]]
+- [[settlements/helgabal|Helgabal]]
+- [[settlements/heliogabalus|Heliogabalus]]
 - [[settlements/index|Settlements]]
 - [[factions/index|Factions]]

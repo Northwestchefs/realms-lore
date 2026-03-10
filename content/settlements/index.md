@@ -41,6 +41,8 @@ Cities, ports, market towns, and strongholds with immediate adventure value.
 - [[settlements/tsurlagol|Tsurlagol]]
 
 ## Old Empires and Chessentan Basin
+- [[settlements/helgabal|Helgabal]]
+- [[settlements/heliogabalus|Heliogabalus]]
 - [[settlements/skuld|Skuld]]
 - [[settlements/neldorild|Neldorild]]
 - [[settlements/unthalass|Unthalass]]
@@ -65,6 +67,7 @@ Cities, ports, market towns, and strongholds with immediate adventure value.
 - [[nations-realms/rashemen|Rashemen]] → [[settlements/immilmar|Immilmar]]
 - [[nations-realms/thesk|Thesk]] → [[settlements/telflamm|Telflamm]], [[settlements/phsant|Phsant]], [[settlements/tsurlagol|Tsurlagol]]
 - [[nations-realms/impiltur|Impiltur]] → [[settlements/lyrabar|Lyrabar]], [[settlements/sarshel|Sarshel]]
+- [[nations-realms/damara|Damara]] → [[settlements/helgabal|Helgabal]], [[settlements/heliogabalus|Heliogabalus]]
 - [[nations-realms/mulhorand|Mulhorand]] → [[settlements/skuld|Skuld]], [[settlements/neldorild|Neldorild]]
 - [[nations-realms/unther|Unther]] → [[settlements/unthalass|Unthalass]], [[settlements/messemprar|Messemprar]]
 - [[nations-realms/calimshan|Calimshan]] → [[settlements/calimport|Calimport]], [[settlements/memnon|Memnon]]
