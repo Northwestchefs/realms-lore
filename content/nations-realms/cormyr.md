@@ -32,7 +32,7 @@ Nobility, commoners, and military service networks each shape local culture and 
 Cormyr relies on taxation, agriculture, craft production, and controlled trade routes.
 
 ## Religion
-Document prominent faiths, royal patronage of temples, and any doctrinal conflicts that affect politics.
+Prominent civic and martial faiths shape public ceremony and military culture, including [[faiths/tyr|Tyr]] and [[faiths/tempus|Tempus]].
 
 ## Military
 Professional troops and trained officers provide national defense and project royal authority.

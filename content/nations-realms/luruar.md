@@ -38,7 +38,7 @@ Faith institutions often cooperate across member lands on defense and public wel
 Joint operations, mutual aid clauses, and coordinated patrols define military structure.
 
 ## Major Settlements
-- [[settlements/index|Silverymoon]] (detail page TBD)
+- [[settlements/silverymoon|Silverymoon]]
 - [[settlements/index|Sundabar]] (detail page TBD)
 
 ## Factions and Power Blocs

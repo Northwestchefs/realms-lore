@@ -11,12 +11,14 @@ Cities, ports, market towns, and strongholds with immediate adventure value.
 - [[settlements/neverwinter-city|Neverwinter (City)]]
 - [[settlements/waterdeep-city|Waterdeep (City)]]
 - [[settlements/luskan-city|Luskan (City)]]
+- [[settlements/silverymoon|Silverymoon]]
 
 ## Western Heartlands and Amn
 - [[settlements/athkatla|Athkatla]]
 - [[settlements/murann|Murann]]
 - [[settlements/trademeet|Trademeet]]
 - [[settlements/suzail|Suzail]]
+- [[settlements/shadowdale|Shadowdale]]
 
 ## Sea of Fallen Stars and the East
 - [[settlements/selgaunt|Selgaunt]]
@@ -30,6 +32,8 @@ Cities, ports, market towns, and strongholds with immediate adventure value.
 ## Browse by Nation
 - [[nations-realms/amn|Amn]] → [[settlements/athkatla|Athkatla]], [[settlements/murann|Murann]], [[settlements/trademeet|Trademeet]]
 - [[nations-realms/cormyr|Cormyr]] → [[settlements/suzail|Suzail]]
+- [[nations-realms/dalelands|Dalelands]] → [[settlements/shadowdale|Shadowdale]]
+- [[nations-realms/luruar|Luruar (Silver Marches)]] → [[settlements/silverymoon|Silverymoon]]
 - [[nations-realms/sembia|Sembia]] → [[settlements/selgaunt|Selgaunt]]
 - [[nations-realms/aglarond|Aglarond]] → [[settlements/velprintalar|Velprintalar]]
 - [[nations-realms/thay|Thay]] → [[settlements/eltabbar|Eltabbar]]

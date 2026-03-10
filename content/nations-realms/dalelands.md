@@ -38,7 +38,7 @@ Shrines and small temples are deeply local, with faith networks supporting inter
 Militias and ranger-style defenders mobilize quickly under alliance terms when needed.
 
 ## Major Settlements
-- [[settlements/index|Shadowdale]] (detail page TBD)
+- [[settlements/shadowdale|Shadowdale]]
 - [[settlements/index|Mistledale]] (detail page TBD)
 
 ## Factions and Power Blocs
