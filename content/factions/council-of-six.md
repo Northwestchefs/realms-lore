@@ -11,12 +11,18 @@ tags:
 # Council of Six
 
 ## Overview
-The Council of Six is the ruling oligarchic body most associated with state authority in [[nations-realms/amn|Amn]]. In practice, it functions through alliances with merchant houses, guild leaders, financiers, and trusted intermediaries.
+The Council of Six is the ruling oligarchic body most associated with state authority in [[nations-realms/amn|Amn]]. In practice, it governs through merchant alliances, patronage, and control of key appointments.
+
+## Operating Pattern
+- projects public unity while negotiating intensely in private
+- delegates enforcement to officials linked to specific blocs
+- uses trade policy, contracts, and legal process as political weapons
 
 ## Campaign Use
-Use the Council as a source of mandates, rival patronage offers, legal cover, and political obstruction. Public unanimity can conceal intense private conflict.
+Use the Council as mandate source, rival patron pool, legal shield, or institutional obstacle when faction compromise collapses.
 
 ## Related Pages
 - [[nations-realms/amn|Amn]]
 - [[settlements/athkatla|Athkatla]]
-- [[factions/index|Factions]]
+- [[factions/cowled-wizards|Cowled Wizards]]
+- [[noble-houses/house-de-lyr|House de'Lyr]]
