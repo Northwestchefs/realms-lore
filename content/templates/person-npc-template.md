@@ -19,6 +19,10 @@ One short paragraph (2-4 lines) on who this person is and why they matter in pla
 ## Statblock
 > Keep mechanics separate from lore. If canon stats vary, use broad campaign-ready values.
 
+### Core Statblock Fields (WotC-style order)
+- **Size**
+- **Type**
+- **Alignment**
 - **Armor Class**
 - **Hit Points**
 - **Speed**
@@ -38,6 +42,17 @@ One short paragraph (2-4 lines) on who this person is and why they matter in pla
 - **Languages**
 - **Challenge**
 - **Proficiency Bonus**
+
+### Optional Combat Blocks
+- **Traits**
+- **Actions**
+- **Bonus Actions**
+- **Reactions**
+- **Legendary Actions**
+- **Mythic Actions**
+- **Lair Actions / Regional Effects**
+
+> If optional combat blocks are not needed, omit them instead of adding filler text.
 
 ## Description
 - Appearance, style, and table-facing identifiers.

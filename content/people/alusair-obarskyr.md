@@ -20,6 +20,9 @@ A high-profile royal and military figure in [[nations-realms/cormyr|Cormyr]], fr
 - **Base of Operations:** [[settlements/suzail|Suzail]].
 
 ## Statblock
+- **Size** Medium
+- **Type** Humanoid (human)
+- **Alignment** Lawful neutral
 - **Armor Class** 19 (plate)
 - **Hit Points** 168 (16d10 + 80)
 - **Speed** 30 ft.

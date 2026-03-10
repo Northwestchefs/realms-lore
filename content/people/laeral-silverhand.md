@@ -21,6 +21,9 @@ Open Lord of [[settlements/waterdeep-city|Waterdeep]], known for balancing noble
 - **Base of Operations:** [[settlements/waterdeep-city|Waterdeep (City)]].
 
 ## Statblock
+- **Size** Medium
+- **Type** Humanoid (human)
+- **Alignment** Chaotic good
 - **Armor Class** 18 (mage armor)
 - **Hit Points** 225 (30d8 + 90)
 - **Speed** 30 ft.

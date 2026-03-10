@@ -21,6 +21,9 @@ A major underworld broker in [[settlements/athkatla|Athkatla]], useful for campa
 - **Base of Operations:** [[settlements/athkatla|Athkatla]].
 
 ## Statblock
+- **Size** Medium
+- **Type** Humanoid (human)
+- **Alignment** Neutral evil
 - **Armor Class** 15 (studded leather)
 - **Hit Points** 110 (17d8 + 34)
 - **Speed** 30 ft.

@@ -35,6 +35,7 @@ Public figures, rulers, and influential operators likely to matter in play.
   7. Plot Hooks
   8. Related Links
 - Keep the **Statblock** in consistent WotC-style field order from the template.
+- Treat these as mandatory in every NPC statblock: Size, Type, Alignment, AC, HP, Speed, STR/DEX/CON/INT/WIS/CHA, Saving Throws, Skills, damage/condition defenses, Senses, Languages, Challenge, and Proficiency Bonus.
 - Keep lore concise and mechanics in the Statblock section only.
 
 ## Related

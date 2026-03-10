@@ -20,6 +20,9 @@ A dominant Thayan arch-necromancer used for high-threat arcs involving authorita
 - **Base of Operations:** [[settlements/eltabbar|Eltabbar]].
 
 ## Statblock
+- **Size** Medium
+- **Type** Undead
+- **Alignment** Lawful evil
 - **Armor Class** 19 (natural armor)
 - **Hit Points** 285 (30d8 + 150)
 - **Speed** 30 ft.
