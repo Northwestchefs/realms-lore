@@ -1,8 +1,13 @@
 {
-  "generatedAt": "2026-03-10T17:12:28.594Z",
+  "generatedAt": "2026-03-10T17:29:07.814Z",
   "source": {
     "name": "D&D 5e SRD API (2014)",
     "baseUrl": "https://www.dnd5eapi.co/api/2014"
+  },
+  "mergePolicy": {
+    "summary": "Union of live SRD API data with local curated seed entries.",
+    "precedence": "Live API records override curated entries on ID conflicts.",
+    "localPreservation": "Curated entries remain when not returned by the live API."
   },
   "collections": {
     "ability-scores": [
@@ -12,7 +17,7 @@
         "name": "CHA",
         "endpoint": "ability-scores",
         "apiUrl": "/api/2014/ability-scores/cha",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "ability-scores:con",
@@ -20,7 +25,7 @@
         "name": "CON",
         "endpoint": "ability-scores",
         "apiUrl": "/api/2014/ability-scores/con",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "ability-scores:dex",
@@ -28,7 +33,7 @@
         "name": "DEX",
         "endpoint": "ability-scores",
         "apiUrl": "/api/2014/ability-scores/dex",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "ability-scores:int",
@@ -36,7 +41,7 @@
         "name": "INT",
         "endpoint": "ability-scores",
         "apiUrl": "/api/2014/ability-scores/int",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "ability-scores:str",
@@ -44,7 +49,7 @@
         "name": "STR",
         "endpoint": "ability-scores",
         "apiUrl": "/api/2014/ability-scores/str",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "ability-scores:wis",
@@ -52,7 +57,7 @@
         "name": "WIS",
         "endpoint": "ability-scores",
         "apiUrl": "/api/2014/ability-scores/wis",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       }
     ],
     "skills": [
@@ -62,7 +67,7 @@
         "name": "Acrobatics",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/acrobatics",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "skills:animal-handling",
@@ -70,7 +75,7 @@
         "name": "Animal Handling",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/animal-handling",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "skills:arcana",
@@ -78,7 +83,7 @@
         "name": "Arcana",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/arcana",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "skills:athletics",
@@ -86,7 +91,7 @@
         "name": "Athletics",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/athletics",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "skills:deception",
@@ -94,7 +99,7 @@
         "name": "Deception",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/deception",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "skills:history",
@@ -102,7 +107,7 @@
         "name": "History",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/history",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "skills:insight",
@@ -110,7 +115,7 @@
         "name": "Insight",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/insight",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "skills:intimidation",
@@ -118,7 +123,7 @@
         "name": "Intimidation",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/intimidation",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "skills:investigation",
@@ -126,7 +131,7 @@
         "name": "Investigation",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/investigation",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "skills:medicine",
@@ -134,7 +139,7 @@
         "name": "Medicine",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/medicine",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "skills:nature",
@@ -142,7 +147,7 @@
         "name": "Nature",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/nature",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "skills:perception",
@@ -150,7 +155,7 @@
         "name": "Perception",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/perception",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "skills:performance",
@@ -158,7 +163,7 @@
         "name": "Performance",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/performance",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "skills:persuasion",
@@ -166,7 +171,7 @@
         "name": "Persuasion",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/persuasion",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "skills:religion",
@@ -174,7 +179,7 @@
         "name": "Religion",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/religion",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "skills:sleight-of-hand",
@@ -182,7 +187,7 @@
         "name": "Sleight of Hand",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/sleight-of-hand",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "skills:stealth",
@@ -190,7 +195,7 @@
         "name": "Stealth",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/stealth",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "skills:survival",
@@ -198,7 +203,7 @@
         "name": "Survival",
         "endpoint": "skills",
         "apiUrl": "/api/2014/skills/survival",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       }
     ],
     "conditions": [
@@ -208,7 +213,7 @@
         "name": "Blinded",
         "endpoint": "conditions",
         "apiUrl": "/api/2014/conditions/blinded",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "conditions:charmed",
@@ -216,7 +221,7 @@
         "name": "Charmed",
         "endpoint": "conditions",
         "apiUrl": "/api/2014/conditions/charmed",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "conditions:deafened",
@@ -224,7 +229,7 @@
         "name": "Deafened",
         "endpoint": "conditions",
         "apiUrl": "/api/2014/conditions/deafened",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "conditions:exhaustion",
@@ -232,7 +237,7 @@
         "name": "Exhaustion",
         "endpoint": "conditions",
         "apiUrl": "/api/2014/conditions/exhaustion",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "conditions:frightened",
@@ -240,7 +245,7 @@
         "name": "Frightened",
         "endpoint": "conditions",
         "apiUrl": "/api/2014/conditions/frightened",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "conditions:grappled",
@@ -248,7 +253,7 @@
         "name": "Grappled",
         "endpoint": "conditions",
         "apiUrl": "/api/2014/conditions/grappled",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "conditions:incapacitated",
@@ -256,7 +261,7 @@
         "name": "Incapacitated",
         "endpoint": "conditions",
         "apiUrl": "/api/2014/conditions/incapacitated",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "conditions:invisible",
@@ -264,7 +269,7 @@
         "name": "Invisible",
         "endpoint": "conditions",
         "apiUrl": "/api/2014/conditions/invisible",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "conditions:paralyzed",
@@ -272,7 +277,7 @@
         "name": "Paralyzed",
         "endpoint": "conditions",
         "apiUrl": "/api/2014/conditions/paralyzed",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "conditions:petrified",
@@ -280,7 +285,7 @@
         "name": "Petrified",
         "endpoint": "conditions",
         "apiUrl": "/api/2014/conditions/petrified",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "conditions:poisoned",
@@ -288,7 +293,7 @@
         "name": "Poisoned",
         "endpoint": "conditions",
         "apiUrl": "/api/2014/conditions/poisoned",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "conditions:prone",
@@ -296,7 +301,7 @@
         "name": "Prone",
         "endpoint": "conditions",
         "apiUrl": "/api/2014/conditions/prone",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "conditions:restrained",
@@ -304,7 +309,7 @@
         "name": "Restrained",
         "endpoint": "conditions",
         "apiUrl": "/api/2014/conditions/restrained",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "conditions:stunned",
@@ -312,7 +317,7 @@
         "name": "Stunned",
         "endpoint": "conditions",
         "apiUrl": "/api/2014/conditions/stunned",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "conditions:unconscious",
@@ -320,7 +325,7 @@
         "name": "Unconscious",
         "endpoint": "conditions",
         "apiUrl": "/api/2014/conditions/unconscious",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       }
     ],
     "damage-types": [
@@ -330,7 +335,7 @@
         "name": "Acid",
         "endpoint": "damage-types",
         "apiUrl": "/api/2014/damage-types/acid",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "damage-types:bludgeoning",
@@ -338,7 +343,7 @@
         "name": "Bludgeoning",
         "endpoint": "damage-types",
         "apiUrl": "/api/2014/damage-types/bludgeoning",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "damage-types:cold",
@@ -346,7 +351,7 @@
         "name": "Cold",
         "endpoint": "damage-types",
         "apiUrl": "/api/2014/damage-types/cold",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "damage-types:fire",
@@ -354,7 +359,7 @@
         "name": "Fire",
         "endpoint": "damage-types",
         "apiUrl": "/api/2014/damage-types/fire",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "damage-types:force",
@@ -362,7 +367,7 @@
         "name": "Force",
         "endpoint": "damage-types",
         "apiUrl": "/api/2014/damage-types/force",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "damage-types:lightning",
@@ -370,7 +375,7 @@
         "name": "Lightning",
         "endpoint": "damage-types",
         "apiUrl": "/api/2014/damage-types/lightning",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "damage-types:necrotic",
@@ -378,7 +383,7 @@
         "name": "Necrotic",
         "endpoint": "damage-types",
         "apiUrl": "/api/2014/damage-types/necrotic",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "damage-types:piercing",
@@ -386,7 +391,7 @@
         "name": "Piercing",
         "endpoint": "damage-types",
         "apiUrl": "/api/2014/damage-types/piercing",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "damage-types:poison",
@@ -394,7 +399,7 @@
         "name": "Poison",
         "endpoint": "damage-types",
         "apiUrl": "/api/2014/damage-types/poison",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "damage-types:psychic",
@@ -402,7 +407,7 @@
         "name": "Psychic",
         "endpoint": "damage-types",
         "apiUrl": "/api/2014/damage-types/psychic",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "damage-types:radiant",
@@ -410,7 +415,7 @@
         "name": "Radiant",
         "endpoint": "damage-types",
         "apiUrl": "/api/2014/damage-types/radiant",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "damage-types:slashing",
@@ -418,7 +423,7 @@
         "name": "Slashing",
         "endpoint": "damage-types",
         "apiUrl": "/api/2014/damage-types/slashing",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "damage-types:thunder",
@@ -426,7 +431,7 @@
         "name": "Thunder",
         "endpoint": "damage-types",
         "apiUrl": "/api/2014/damage-types/thunder",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       }
     ],
     "languages": [
@@ -436,7 +441,7 @@
         "name": "Abyssal",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/abyssal",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "languages:celestial",
@@ -444,7 +449,7 @@
         "name": "Celestial",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/celestial",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "languages:common",
@@ -452,7 +457,7 @@
         "name": "Common",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/common",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "languages:deep-speech",
@@ -460,7 +465,7 @@
         "name": "Deep Speech",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/deep-speech",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "languages:draconic",
@@ -468,7 +473,7 @@
         "name": "Draconic",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/draconic",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "languages:druidic",
@@ -476,7 +481,7 @@
         "name": "Druidic",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/druidic",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "languages:dwarvish",
@@ -484,7 +489,7 @@
         "name": "Dwarvish",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/dwarvish",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "languages:elvish",
@@ -492,7 +497,7 @@
         "name": "Elvish",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/elvish",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "languages:giant",
@@ -500,7 +505,7 @@
         "name": "Giant",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/giant",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "languages:gnomish",
@@ -508,7 +513,7 @@
         "name": "Gnomish",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/gnomish",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "languages:goblin",
@@ -516,7 +521,7 @@
         "name": "Goblin",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/goblin",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "languages:halfling",
@@ -524,7 +529,7 @@
         "name": "Halfling",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/halfling",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "languages:infernal",
@@ -532,7 +537,7 @@
         "name": "Infernal",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/infernal",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "languages:orc",
@@ -540,7 +545,7 @@
         "name": "Orc",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/orc",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "languages:primordial",
@@ -548,7 +553,7 @@
         "name": "Primordial",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/primordial",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "languages:sylvan",
@@ -556,7 +561,7 @@
         "name": "Sylvan",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/sylvan",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "languages:thieves-cant",
@@ -564,7 +569,7 @@
         "name": "Thieves' Cant",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/thieves-cant",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "languages:undercommon",
@@ -572,7 +577,7 @@
         "name": "Undercommon",
         "endpoint": "languages",
         "apiUrl": "/api/2014/languages/undercommon",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       }
     ],
     "equipment-categories": [
@@ -582,7 +587,7 @@
         "name": "Adventuring Gear",
         "endpoint": "equipment-categories",
         "apiUrl": "/api/2014/equipment-categories/adventuring-gear",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "equipment-categories:armor",
@@ -590,7 +595,7 @@
         "name": "Armor",
         "endpoint": "equipment-categories",
         "apiUrl": "/api/2014/equipment-categories/armor",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "equipment-categories:artisan-tools",
@@ -598,7 +603,7 @@
         "name": "Artisan's Tools",
         "endpoint": "equipment-categories",
         "apiUrl": "/api/2014/equipment-categories/artisan-tools",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "equipment-categories:gaming-sets",
@@ -606,7 +611,7 @@
         "name": "Gaming Sets",
         "endpoint": "equipment-categories",
         "apiUrl": "/api/2014/equipment-categories/gaming-sets",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "equipment-categories:melee-weapons",
@@ -614,7 +619,7 @@
         "name": "Melee Weapons",
         "endpoint": "equipment-categories",
         "apiUrl": "/api/2014/equipment-categories/melee-weapons",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "equipment-categories:mounts-and-vehicles",
@@ -622,7 +627,7 @@
         "name": "Mounts and Vehicles",
         "endpoint": "equipment-categories",
         "apiUrl": "/api/2014/equipment-categories/mounts-and-vehicles",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "equipment-categories:musical-instruments",
@@ -630,7 +635,7 @@
         "name": "Musical Instruments",
         "endpoint": "equipment-categories",
         "apiUrl": "/api/2014/equipment-categories/musical-instruments",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "equipment-categories:other-tools",
@@ -638,7 +643,7 @@
         "name": "Other Tools",
         "endpoint": "equipment-categories",
         "apiUrl": "/api/2014/equipment-categories/other-tools",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "equipment-categories:ranged-weapons",
@@ -646,7 +651,7 @@
         "name": "Ranged Weapons",
         "endpoint": "equipment-categories",
         "apiUrl": "/api/2014/equipment-categories/ranged-weapons",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       }
     ],
     "equipment": [
@@ -656,7 +661,7 @@
         "name": "Chain Mail",
         "endpoint": "equipment",
         "apiUrl": "/api/2014/equipment/chain-mail",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "equipment:club",
@@ -664,7 +669,7 @@
         "name": "Club",
         "endpoint": "equipment",
         "apiUrl": "/api/2014/equipment/club",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "equipment:crossbow-light",
@@ -672,7 +677,7 @@
         "name": "Crossbow, light",
         "endpoint": "equipment",
         "apiUrl": "/api/2014/equipment/crossbow-light",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "equipment:dagger",
@@ -680,7 +685,7 @@
         "name": "Dagger",
         "endpoint": "equipment",
         "apiUrl": "/api/2014/equipment/dagger",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "equipment:explorers-pack",
@@ -688,7 +693,7 @@
         "name": "Explorer's Pack",
         "endpoint": "equipment",
         "apiUrl": "/api/2014/equipment/explorers-pack",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "equipment:leather-armor",
@@ -696,7 +701,7 @@
         "name": "Leather Armor",
         "endpoint": "equipment",
         "apiUrl": "/api/2014/equipment/leather-armor",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "equipment:longsword",
@@ -704,7 +709,7 @@
         "name": "Longsword",
         "endpoint": "equipment",
         "apiUrl": "/api/2014/equipment/longsword",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "equipment:shield",
@@ -712,7 +717,7 @@
         "name": "Shield",
         "endpoint": "equipment",
         "apiUrl": "/api/2014/equipment/shield",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "equipment:shortbow",
@@ -720,7 +725,7 @@
         "name": "Shortbow",
         "endpoint": "equipment",
         "apiUrl": "/api/2014/equipment/shortbow",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "equipment:thieves-tools",
@@ -728,7 +733,7 @@
         "name": "Thieves' Tools",
         "endpoint": "equipment",
         "apiUrl": "/api/2014/equipment/thieves-tools",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       }
     ],
     "monsters": [
@@ -738,7 +743,7 @@
         "name": "Goblin",
         "endpoint": "monsters",
         "apiUrl": "/api/2014/monsters/goblin",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "monsters:orc",
@@ -746,7 +751,7 @@
         "name": "Orc",
         "endpoint": "monsters",
         "apiUrl": "/api/2014/monsters/orc",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "monsters:skeleton",
@@ -754,7 +759,7 @@
         "name": "Skeleton",
         "endpoint": "monsters",
         "apiUrl": "/api/2014/monsters/skeleton",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "monsters:wolf",
@@ -762,7 +767,7 @@
         "name": "Wolf",
         "endpoint": "monsters",
         "apiUrl": "/api/2014/monsters/wolf",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "monsters:young-red-dragon",
@@ -770,7 +775,7 @@
         "name": "Young Red Dragon",
         "endpoint": "monsters",
         "apiUrl": "/api/2014/monsters/young-red-dragon",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       }
     ],
     "spells": [
@@ -780,7 +785,7 @@
         "name": "Bless",
         "endpoint": "spells",
         "apiUrl": "/api/2014/spells/bless",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "spells:cure-wounds",
@@ -788,7 +793,7 @@
         "name": "Cure Wounds",
         "endpoint": "spells",
         "apiUrl": "/api/2014/spells/cure-wounds",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "spells:detect-magic",
@@ -796,7 +801,7 @@
         "name": "Detect Magic",
         "endpoint": "spells",
         "apiUrl": "/api/2014/spells/detect-magic",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "spells:fireball",
@@ -804,7 +809,7 @@
         "name": "Fireball",
         "endpoint": "spells",
         "apiUrl": "/api/2014/spells/fireball",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "spells:guidance",
@@ -812,7 +817,7 @@
         "name": "Guidance",
         "endpoint": "spells",
         "apiUrl": "/api/2014/spells/guidance",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "spells:mage-armor",
@@ -820,7 +825,7 @@
         "name": "Mage Armor",
         "endpoint": "spells",
         "apiUrl": "/api/2014/spells/mage-armor",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "spells:magic-missile",
@@ -828,7 +833,7 @@
         "name": "Magic Missile",
         "endpoint": "spells",
         "apiUrl": "/api/2014/spells/magic-missile",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       },
       {
         "id": "spells:shield",
@@ -836,7 +841,7 @@
         "name": "Shield",
         "endpoint": "spells",
         "apiUrl": "/api/2014/spells/shield",
-        "source": "5e-srd-api"
+        "source": "offline-curated"
       }
     ]
   }

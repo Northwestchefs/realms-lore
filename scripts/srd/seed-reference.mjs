@@ -131,6 +131,11 @@ const OFFLINE_SEED = {
 
 const SEED_CONFIG = Object.keys(OFFLINE_SEED)
 
+const compareText = (a, b) => {
+  if (a === b) return 0
+  return a < b ? -1 : 1
+}
+
 const toOfflineItems = (endpoint) =>
   OFFLINE_SEED[endpoint].map(([index, name]) => ({
     index,
@@ -138,23 +143,51 @@ const toOfflineItems = (endpoint) =>
     url: `/api/2014/${endpoint}/${index}`,
   }))
 
-const sortByName = (items) => [...items].sort((a, b) => a.name.localeCompare(b.name))
+const toNormalizedItems = (endpoint, items, source) =>
+  items.map((item) => ({
+    ...normalizeIndexItem(endpoint, item),
+    source,
+  }))
+
+const sortByStableFields = (items) =>
+  [...items].sort((a, b) => {
+    const byName = compareText(a.name.toLowerCase(), b.name.toLowerCase())
+    if (byName !== 0) return byName
+
+    const byIndex = compareText(a.index, b.index)
+    if (byIndex !== 0) return byIndex
+
+    return compareText(a.id, b.id)
+  })
+
+const mergeLiveAndOffline = ({ offlineItems, liveItems }) => {
+  const mergedById = new Map(offlineItems.map((item) => [item.id, item]))
+
+  for (const liveItem of liveItems) {
+    mergedById.set(liveItem.id, liveItem)
+  }
+
+  return sortByStableFields([...mergedById.values()])
+}
+
+const getLiveItems = async (client, endpoint) => {
+  try {
+    const response = await client.listResources(endpoint)
+    return response.results
+  } catch (_error) {
+    return []
+  }
+}
 
 const seedReferenceData = async () => {
   const client = createSrdClient()
   const collections = {}
 
   for (const endpoint of SEED_CONFIG) {
-    let results
+    const offlineItems = toNormalizedItems(endpoint, toOfflineItems(endpoint), "offline-curated")
+    const liveItems = toNormalizedItems(endpoint, await getLiveItems(client, endpoint), "5e-srd-api")
 
-    try {
-      const response = await client.listResources(endpoint)
-      results = response.results
-    } catch (_error) {
-      results = toOfflineItems(endpoint)
-    }
-
-    collections[endpoint] = sortByName(results).map((item) => normalizeIndexItem(endpoint, item))
+    collections[endpoint] = mergeLiveAndOffline({ offlineItems, liveItems })
   }
 
   const dataset = {
@@ -162,6 +195,11 @@ const seedReferenceData = async () => {
     source: {
       name: "D&D 5e SRD API (2014)",
       baseUrl: client.baseUrl,
+    },
+    mergePolicy: {
+      summary: "Union of live SRD API data with local curated seed entries.",
+      precedence: "Live API records override curated entries on ID conflicts.",
+      localPreservation: "Curated entries remain when not returned by the live API.",
     },
     collections,
   }

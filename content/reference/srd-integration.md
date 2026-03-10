@@ -41,7 +41,12 @@ title: SRD Integration Workflow
 
 ## Refresh / Expand the Local Dataset
 - Run: `npm run srd:seed`
-- The seeding script tries live API fetches first and falls back to an embedded SRD-safe compact seed if network access is unavailable.
+- The seeding script always builds a union of live API data and embedded offline curated seed data.
+- Merge behavior is explicit and deterministic:
+  - Local `OFFLINE_SEED` entries are always included as a baseline.
+  - Live API entries override matching IDs (`endpoint:index`).
+  - Local curated entries are preserved when the live API does not return them (for example, `languages:druidic` and `languages:thieves-cant`).
+  - Collection ordering is stable by name (case-insensitive), then index, then ID.
 - To expand:
   1. Edit the `OFFLINE_SEED` collections in `scripts/srd/seed-reference.mjs`.
   2. Re-run `npm run srd:seed`.
