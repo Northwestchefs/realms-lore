@@ -14,59 +14,63 @@ capital: Velprintalar
 # Aglarond
 
 ## Overview
-Aglarond is treated here as a nation-scale realm entry for campaign planning, diplomacy, and map-level play.
+Aglarond is a coastal forest realm that blends local autonomy with defensive statecraft under constant eastern pressure.
 
 ## Identity
-A coastal forest realm on the eastern Sea of Fallen Stars that balances local autonomy with defense-minded statecraft.
+A vigilant border kingdom known for balancing maritime trade, woodland communities, and anti-incursion readiness.
 
 ## Geography
-Sits between [[nations-realms/thay|Thay]] and the [[regions/sea-of-fallen-stars|Sea of Fallen Stars]], with mixed woodland interiors and vulnerable coasts.
+Positioned between [[nations-realms/thay|Thay]] and the [[regions/sea-of-fallen-stars|Sea of Fallen Stars]], with interior woods like [[landmarks/yuirwood|Yuirwood]] and vulnerable coastal approaches.
 
 ## Government
-A crown framework works through local lords and city authorities, with security policy shaped by pressure from [[nations-realms/thay|Thay]].
+A crown framework works through local lords, city authorities, and regional commanders focused on rapid response.
 
 ## Society
-Village traditions, coastal trade communities, and frontier patrol culture all coexist with strong regional identities.
+Rural traditions, harbor culture, and militia service obligations coexist with strong local identity.
 
 ## Economy
-Timber, fishing, coastal commerce, and controlled overland routes support the realm.
+Timber, fishing, coastal commerce, and controlled overland routes form the economic base.
 
 ## Religion
-Local temple life tends toward pragmatic, protective faith practice in communities near contested borders.
+Protective, community-focused temple life supports charity, militia morale, and emergency response.
 
 ## Military
-Border watchers, naval patrols, and local militias focus on deterrence and rapid response.
+Border watchers, naval patrols, and settlement militias prioritize early warning and containment.
 
 ## Major Settlements
 - [[settlements/velprintalar|Velprintalar]] (capital)
 - [[settlements/glarondar|Glarondar]]
+- [[settlements/delthuntle|Delthuntle]]
 
 ## Factions and Power Blocs
 - Border commanders and local lords
-- Merchant captains and harbor interests
-- Temple networks funding relief and defense
+- Harbor merchants and ship captains
+- Civic-temple networks funding logistics and relief
 
 ## Relations
-Maintains guarded relations with [[nations-realms/thay|Thay]] while seeking trade stability with [[nations-realms/chondath|Chondath]] and other coast states.
+Maintains guarded relations with [[nations-realms/thay|Thay]] while pursuing stable trade with neighboring Easting Reach powers.
 
 ## Threats
 - Cross-border espionage and magical sabotage
-- Coastal raiding and privateer disruption
-- Internal disagreement over foreign policy
+- Coastal raiding, privateer disruption, and false-flag incidents
+- Internal debates over how aggressive border policy should be
 
 ## Adventure Use
-Use Aglarond for border diplomacy, faction bargaining, travel logistics, and region-level crisis arcs.
+Use Aglarond for patrol missions, defensive intelligence play, mixed urban-rural logistics, and border diplomacy under pressure.
 
 ## Hooks
-- A disputed treaty clause pulls the party into negotiations between local power blocs and foreign envoys.
-- A key route node goes silent, and multiple factions race to control what happened there.
-- A local authority hires neutral troubleshooters before a political summit turns violent.
+- A destroyed watchpost points to either Thayan infiltration or an internal political frame-up.
+- The party escorts negotiators through [[landmarks/yuirwood|Yuirwood]] while rival agents trigger staged attacks.
+- A harbor panic over cursed cargo threatens to collapse regional trade agreements.
 
 ## See Also
 - [[nations-realms/index|Nations & Realms]]
+- [[regions/unapproachable-east|Unapproachable East]]
 - [[settlements/velprintalar|Velprintalar]]
 - [[settlements/glarondar|Glarondar]]
+- [[settlements/delthuntle|Delthuntle]]
+- [[landmarks/yuirwood|Yuirwood]]
 - [[nations-realms/thay|Thay]]
-- [[nations-realms/chondath|Chondath]]
+- [[factions/harpers|Harpers]]
+- [[factions/red-wizards-of-thay|Red Wizards of Thay]]
 - [[settlements/index|Settlements]]
-- [[factions/index|Factions]]

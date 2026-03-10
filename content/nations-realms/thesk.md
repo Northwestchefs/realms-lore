@@ -14,59 +14,62 @@ capital: Telflamm
 # Thesk
 
 ## Overview
-Thesk is treated here as a nation-scale realm entry for campaign planning, diplomacy, and map-level play.
+Thesk is a trade-first eastern realm where caravan law, port economics, and border pragmatism shape almost every political decision.
 
 ## Identity
-A trade-facing eastern realm where caravan economics and frontier diplomacy are central state concerns.
+A broker-state balancing opportunity and risk between the Inner Sea, the East, and volatile neighboring powers.
 
 ## Geography
-Stretches along overland and coastal routes between eastern frontiers and Inner Sea markets.
+Sits on key coast and overland corridors linking [[regions/sea-of-fallen-stars|Sea of Fallen Stars]] traffic to frontier caravan routes.
 
 ## Government
-Governance blends merchant influence with regional administrators and local strongholds.
+Merchant blocs, caravan magnates, and civic officers negotiate power through contracts, toll policy, and security appointments.
 
 ## Society
-Caravan towns, mixed migrant communities, and pragmatic civic culture define daily life.
+Mixed migrant communities, caravan families, and port labor networks produce a practical, multilingual civic culture.
 
 ## Economy
-Long-distance caravan trade, warehousing, and escort services dominate the economy.
+Long-haul trade, warehousing, financing, escorts, and customs revenues dominate state priorities.
 
 ## Religion
-Temples provide social services for mobile populations and mediate commercial disputes.
+Temples often function as arbitration venues, debt guarantors, and relief providers for mobile populations.
 
 ## Military
-Route security forces and contracted guards are vital alongside local militias.
+Road security companies, city militias, and hired escorts protect flow points rather than broad territorial conquest.
 
 ## Major Settlements
 - [[settlements/telflamm|Telflamm]]
 - [[settlements/phsant|Phsant]]
+- [[settlements/tsurlagol|Tsurlagol]]
 
 ## Factions and Power Blocs
-- Caravan consortiums
-- Port and customs authorities
-- Security captains and local governors
+- Caravan consortiums and route insurers
+- Port-customs authorities and bonded-warehouse syndicates
+- Smuggling networks contested by civic enforcers and outside agents
 
 ## Relations
-Balances ties with [[nations-realms/impiltur|Impiltur]], [[nations-realms/rashemen|Rashemen]], and eastland frontier regions.
+Balances ties with [[nations-realms/impiltur|Impiltur]] and [[nations-realms/rashemen|Rashemen]] while managing persistent influence attempts from [[nations-realms/thay|Thay]].
 
 ## Threats
-- Route monopolies and corruption
-- Smuggling and protection-racket violence
-- External pressure from expansionist neighbors
+- Route monopolies, fraud, and transport corruption
+- Protection-racket violence around high-value cargo
+- Diplomatic flare-ups triggered by forged manifests and proxy operations
 
 ## Adventure Use
-Use Thesk for border diplomacy, faction bargaining, travel logistics, and region-level crisis arcs.
+Use Thesk for commercial diplomacy, convoy security, deniable investigation, and pressure-cooker negotiations with real economic stakes.
 
 ## Hooks
-- A disputed treaty clause pulls the party into negotiations between local power blocs and foreign envoys.
-- A key route node goes silent, and multiple factions race to control what happened there.
-- A local authority hires neutral troubleshooters before a political summit turns violent.
+- A forged cargo seal implicates three rival powers and puts a peace summit at risk.
+- A caravan insurance syndicate hires the party to expose a staged monster attack scheme.
+- Port and road authorities demand neutral troubleshooters before a customs strike turns violent.
 
 ## See Also
 - [[nations-realms/index|Nations & Realms]]
-- [[nations-realms/impiltur|Impiltur]]
-- [[nations-realms/rashemen|Rashemen]]
+- [[regions/unapproachable-east|Unapproachable East]]
+- [[regions/sea-of-fallen-stars|Sea of Fallen Stars]]
 - [[settlements/telflamm|Telflamm]]
 - [[settlements/phsant|Phsant]]
+- [[settlements/tsurlagol|Tsurlagol]]
+- [[factions/zhentarim|Zhentarim]]
+- [[factions/red-wizards-of-thay|Red Wizards of Thay]]
 - [[settlements/index|Settlements]]
-- [[factions/index|Factions]]
