@@ -12,7 +12,7 @@ A lightweight vault map for browsing lore in layers.
 1. [[world/index|World]]
 2. [[regions/index|Regions]]
 3. [[nations-realms/index|Nations & Realms]]
-4. [[settlements/index|Settlements]], [[factions/index|Factions]], [[faiths/index|Faiths]], [[people/index|People]]
+4. [[settlements/index|Settlements]], [[factions/index|Factions]], [[faiths/index|Faiths]], [[people/index|People]], [[monsters/index|Monsters]]
 
 ## Vault Navigation
 
@@ -29,6 +29,7 @@ A lightweight vault map for browsing lore in layers.
 
 ### Characters and Play Support
 - [[people/index|People]]
+- [[monsters/index|Monsters]]
 - [[faiths/index|Faiths]]
 - [[player-resources/index|Player Resources]]
 - [[templates/nation-template|Templates]]
