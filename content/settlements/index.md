@@ -14,6 +14,8 @@ Cities, ports, market towns, and strongholds with immediate adventure value.
 - [[settlements/silverymoon|Silverymoon]]
 
 ## Western Heartlands and Amn
+- [[settlements/darromar|Darromar]]
+- [[settlements/zazesspur|Zazesspur]]
 - [[settlements/athkatla|Athkatla]]
 - [[settlements/murann|Murann]]
 - [[settlements/trademeet|Trademeet]]
@@ -23,6 +25,8 @@ Cities, ports, market towns, and strongholds with immediate adventure value.
 - [[settlements/shadowdale|Shadowdale]]
 
 ## Sea of Fallen Stars and the East
+- [[settlements/arrabar|Arrabar]]
+- [[settlements/hlondeth|Hlondeth]]
 - [[settlements/selgaunt|Selgaunt]]
 - [[settlements/velprintalar|Velprintalar]]
 - [[settlements/eltabbar|Eltabbar]]
@@ -52,6 +56,7 @@ Cities, ports, market towns, and strongholds with immediate adventure value.
 - [[nations-realms/cormyr|Cormyr]] → [[settlements/suzail|Suzail]]
 - [[nations-realms/dalelands|Dalelands]] → [[settlements/shadowdale|Shadowdale]]
 - [[nations-realms/luruar|Luruar (Silver Marches)]] → [[settlements/silverymoon|Silverymoon]]
+- [[nations-realms/tethyr|Tethyr]] → [[settlements/darromar|Darromar]], [[settlements/zazesspur|Zazesspur]]
 - [[nations-realms/sembia|Sembia]] → [[settlements/selgaunt|Selgaunt]]
 - [[nations-realms/aglarond|Aglarond]] → [[settlements/velprintalar|Velprintalar]], [[settlements/glarondar|Glarondar]], [[settlements/delthuntle|Delthuntle]]
 - [[nations-realms/thay|Thay]] → [[settlements/eltabbar|Eltabbar]]
@@ -60,6 +65,7 @@ Cities, ports, market towns, and strongholds with immediate adventure value.
 - [[nations-realms/impiltur|Impiltur]] → [[settlements/lyrabar|Lyrabar]], [[settlements/sarshel|Sarshel]]
 - [[nations-realms/mulhorand|Mulhorand]] → [[settlements/skuld|Skuld]], [[settlements/neldorild|Neldorild]]
 - [[nations-realms/unther|Unther]] → [[settlements/unthalass|Unthalass]], [[settlements/messemprar|Messemprar]]
+- [[nations-realms/chondath|Chondath]] → [[settlements/arrabar|Arrabar]], [[settlements/hlondeth|Hlondeth]]
 - [[nations-realms/chessenta|Chessenta]] → [[settlements/cimbar|Cimbar]], [[settlements/luthcheq|Luthcheq]]
 
 ## Use at the Table

@@ -38,8 +38,8 @@ Temples are politically relevant in legitimacy disputes and regional mediation.
 Royal forces combine household troops, levies, and professional garrisons.
 
 ## Major Settlements
-- [[settlements/index|Darromar]] (detail page TBD)
-- [[settlements/index|Zazesspur]] (detail page TBD)
+- [[settlements/darromar|Darromar]]
+- [[settlements/zazesspur|Zazesspur]]
 
 ## Factions and Power Blocs
 - Royal reformers and court conservatives

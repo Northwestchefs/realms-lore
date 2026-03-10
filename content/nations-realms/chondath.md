@@ -38,8 +38,8 @@ Temples often function as community stabilizers and arbiters in commercial dispu
 Defense prioritizes river patrols, city garrisons, and route security detachments.
 
 ## Major Settlements
-- [[settlements/index|Arrabar]] (detail page TBD)
-- [[settlements/index|Hlondeth]] (detail page TBD)
+- [[settlements/arrabar|Arrabar]]
+- [[settlements/hlondeth|Hlondeth]]
 
 ## Factions and Power Blocs
 - Port merchant councils
