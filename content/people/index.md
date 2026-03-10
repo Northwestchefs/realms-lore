@@ -41,6 +41,7 @@ Public figures, rulers, and influential operators likely to matter in play.
   8. Related Links
 - Follow [[reference/npc-import-standard|NPC Import Statblock Standard]] for exact formatting and field order.
 - Use [[reference/npc-srd-workflow|NPC SRD Reference Workflow]] for local SRD-backed mechanics terminology.
+- Run `npm run npc:check-statblocks` when updating NPC mechanics to keep terms aligned to the local SRD cache.
 - Keep the **Import Statblock** plain-text only, in a fenced `text` block, with no lore mixed into mechanics.
 - Keep lore concise and place all mechanics in the Import Statblock section only.
 

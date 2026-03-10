@@ -14,6 +14,7 @@ Use this workflow when writing or generating NPC pages with `## Import Statblock
 
 - Primary source: `static/data/srd/reference.json`
 - Local lookup helper: `npm run npc:srd-reference`
+- Local statblock consistency check: `npm run npc:check-statblocks`
 - Do not invent alternate naming when a canonical SRD name exists in the local cache.
 
 ## What to normalize for NPC mechanics
@@ -29,6 +30,7 @@ Use this workflow when writing or generating NPC pages with `## Import Statblock
 ## Stable IDs for workflow tooling
 
 - Use `endpoint:index` IDs in generation scripts, checks, or draft metadata.
+- Keep these IDs in draft notes or generator metadata (not inside the import-ready statblock text).
 - Examples:
   - `skills:perception`
   - `conditions:frightened`

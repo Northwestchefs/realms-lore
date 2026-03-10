@@ -33,7 +33,7 @@ Skills: Athletics +6, Insight +5, Intimidation +5, Perception +5
 Damage Vulnerabilities: None
 Damage Resistances: None
 Damage Immunities: None
-Condition Immunities: frightened
+Condition Immunities: Frightened
 Senses: passive Perception 15
 Languages: Common, Illuskan
 Challenge: 7 (2,900 XP)

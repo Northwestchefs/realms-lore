@@ -31,7 +31,7 @@ STR 12 (+1) DEX 18 (+4) CON 14 (+2) INT 13 (+1) WIS 12 (+1) CHA 16 (+3)
 Saving Throws: Dex +7, Cha +6
 Skills: Acrobatics +7, Athletics +4, Deception +6, Perception +4, Sleight of Hand +7, Stealth +7
 Damage Vulnerabilities: None
-Damage Resistances: cold
+Damage Resistances: Cold
 Damage Immunities: None
 Condition Immunities: None
 Senses: passive Perception 14
