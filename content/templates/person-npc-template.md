@@ -69,6 +69,7 @@ Use the exact field order above for every NPC page. Keep this section plain-text
   - languages (for example, `Common`, `Thieves' Cant`)
 - Prefer recognizable SRD equipment/spell naming in actions and spellcasting entries.
 - Optional workflow helper: run `npm run npc:srd-reference` to print local canonical names.
+- Validation helper: run `npm run npc:check-statblocks` to catch non-canonical terms in template/NPC Import Statblock fields.
 
 ## Description
 

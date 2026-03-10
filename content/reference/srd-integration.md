@@ -23,6 +23,7 @@ title: SRD Integration Workflow
 - `scripts/srd/seed-reference.mjs`: reference dataset seeding script.
 - `scripts/srd/reference-cache.mjs`: local cache reader + stable lookup helpers.
 - `scripts/npc/print-srd-npc-reference.mjs`: NPC-facing SRD terminology helper.
+- `scripts/npc/validate-import-statblocks.mjs`: local SRD terminology check for NPC/template import statblocks.
 - `static/data/srd/reference.json`: local compact SRD reference cache.
 
 ## Cached Reference Collections
@@ -45,7 +46,8 @@ title: SRD Integration Workflow
 2. Use stable IDs (`endpoint:index`) for links, matching, and deduplication.
 3. If detailed records are needed, use `SrdClient.fetchByIndex()` or `SrdClient.fetchResource()`.
 4. For NPC authoring, use `npm run npc:srd-reference` to keep statblock terms aligned to local SRD names.
-5. Keep additions SRD-only and extend via the seed script.
+5. Validate template + NPC import statblocks with `npm run npc:check-statblocks` for canonical local naming.
+6. Keep additions SRD-only and extend via the seed script.
 
 ## Refresh / Expand the Local Dataset
 

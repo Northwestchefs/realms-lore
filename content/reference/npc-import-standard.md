@@ -23,6 +23,8 @@ Use this format for the `## Import Statblock` section on every NPC page. This st
 
 - Local-first source of truth: `static/data/srd/reference.json`.
 - Run `npm run npc:srd-reference` when drafting or reviewing NPC mechanics.
+- Treat `static/data/srd/reference.json` as canonical naming for mechanics lines.
+- Validate statblocks with `npm run npc:check-statblocks` before commit when NPC mechanics changed.
 - Normalize names to SRD collections where relevant:
   - `ability-scores`
   - `skills`
@@ -31,7 +33,8 @@ Use this format for the `## Import Statblock` section on every NPC page. This st
   - `languages`
   - `equipment-categories`
   - curated `equipment`, `monsters`, and `spells`
-- Keep internal references stable with `endpoint:index` IDs (example: `skills:stealth`, `damage-types:piercing`) for tool-assisted generation and review.
+- Keep internal references stable with `endpoint:index` IDs (example: `skills:stealth`, `damage-types:piercing`) for tool-assisted generation and review metadata.
+- Keep stable IDs out of the final importer text block unless a downstream parser explicitly requires them.
 - Use the SRD API client (`scripts/srd/client.mjs`) only when deeper details are required and not present in the local cache.
 
 ## Required Field Order

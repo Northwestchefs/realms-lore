@@ -31,7 +31,7 @@ STR 9 (-1) DEX 14 (+2) CON 12 (+1) INT 15 (+2) WIS 14 (+2) CHA 16 (+3)
 Saving Throws: Dex +4, Wis +4
 Skills: Deception +5, Insight +4, Investigation +4, Perception +4, Persuasion +5, Stealth +4
 Damage Vulnerabilities: None
-Damage Resistances: psychic
+Damage Resistances: Psychic
 Damage Immunities: None
 Condition Immunities: None
 Senses: passive Perception 14

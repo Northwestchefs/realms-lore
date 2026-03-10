@@ -32,7 +32,7 @@ Skills: Athletics +10, History +6, Insight +7, Intimidation +8, Persuasion +8
 Damage Vulnerabilities: None
 Damage Resistances: None
 Damage Immunities: None
-Condition Immunities: frightened
+Condition Immunities: Frightened
 Senses: passive Perception 12
 Languages: Common, Chondathan
 Challenge: 12 (8,400 XP)
