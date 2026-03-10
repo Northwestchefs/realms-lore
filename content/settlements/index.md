@@ -32,6 +32,8 @@ Cities, ports, market towns, and strongholds with immediate adventure value.
 - [[settlements/phsant|Phsant]]
 - [[settlements/immilmar|Immilmar]]
 - [[settlements/glarondar|Glarondar]]
+- [[settlements/delthuntle|Delthuntle]]
+- [[settlements/tsurlagol|Tsurlagol]]
 
 ## Old Empires and Chessentan Basin
 - [[settlements/skuld|Skuld]]
@@ -51,10 +53,10 @@ Cities, ports, market towns, and strongholds with immediate adventure value.
 - [[nations-realms/dalelands|Dalelands]] → [[settlements/shadowdale|Shadowdale]]
 - [[nations-realms/luruar|Luruar (Silver Marches)]] → [[settlements/silverymoon|Silverymoon]]
 - [[nations-realms/sembia|Sembia]] → [[settlements/selgaunt|Selgaunt]]
-- [[nations-realms/aglarond|Aglarond]] → [[settlements/velprintalar|Velprintalar]], [[settlements/glarondar|Glarondar]]
+- [[nations-realms/aglarond|Aglarond]] → [[settlements/velprintalar|Velprintalar]], [[settlements/glarondar|Glarondar]], [[settlements/delthuntle|Delthuntle]]
 - [[nations-realms/thay|Thay]] → [[settlements/eltabbar|Eltabbar]]
 - [[nations-realms/rashemen|Rashemen]] → [[settlements/immilmar|Immilmar]]
-- [[nations-realms/thesk|Thesk]] → [[settlements/telflamm|Telflamm]], [[settlements/phsant|Phsant]]
+- [[nations-realms/thesk|Thesk]] → [[settlements/telflamm|Telflamm]], [[settlements/phsant|Phsant]], [[settlements/tsurlagol|Tsurlagol]]
 - [[nations-realms/impiltur|Impiltur]] → [[settlements/lyrabar|Lyrabar]], [[settlements/sarshel|Sarshel]]
 - [[nations-realms/mulhorand|Mulhorand]] → [[settlements/skuld|Skuld]], [[settlements/neldorild|Neldorild]]
 - [[nations-realms/unther|Unther]] → [[settlements/unthalass|Unthalass]], [[settlements/messemprar|Messemprar]]

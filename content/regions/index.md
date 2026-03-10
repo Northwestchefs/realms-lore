@@ -18,7 +18,7 @@ Macro-geography for travel planning, campaign pacing, and nation-to-nation conte
 ## Region-to-Realm Jump Points
 - Coast politics: [[regions/sword-coast|Sword Coast]] → [[nations-realms/waterdeep|Waterdeep]], [[nations-realms/neverwinter|Neverwinter]], [[nations-realms/luskan|Luskan]]
 - Trade pressure: [[regions/western-heartlands|Western Heartlands]] → [[nations-realms/amn|Amn]], [[nations-realms/cormyr|Cormyr]], [[nations-realms/baldurs-gate|Baldur's Gate]]
-- Arcane-military tension: [[regions/unapproachable-east|Unapproachable East]] → [[nations-realms/thay|Thay]], [[nations-realms/rashemen|Rashemen]], [[nations-realms/aglarond|Aglarond]]
+- Arcane-military tension: [[regions/unapproachable-east|Unapproachable East]] → [[nations-realms/thay|Thay]], [[nations-realms/rashemen|Rashemen]], [[nations-realms/aglarond|Aglarond]], [[nations-realms/thesk|Thesk]], [[nations-realms/impiltur|Impiltur]]
 - Legacy empires: [[regions/old-empires|Old Empires]] → [[nations-realms/mulhorand|Mulhorand]], [[nations-realms/unther|Unther]], [[nations-realms/chessenta|Chessenta]]
 
 ## Region-to-Settlement Jump Points
@@ -26,7 +26,7 @@ Macro-geography for travel planning, campaign pacing, and nation-to-nation conte
 - [[regions/western-heartlands|Western Heartlands]] → [[settlements/athkatla|Athkatla]], [[settlements/suzail|Suzail]]
 - [[regions/amnian-coast|Amnian Coast]] → [[settlements/athkatla|Athkatla]], [[settlements/murann|Murann]]
 - [[regions/trade-way|Trade Way]] → [[settlements/trademeet|Trademeet]], [[settlements/crimmor|Crimmor]]
-- [[regions/unapproachable-east|Unapproachable East]] → [[settlements/eltabbar|Eltabbar]], [[settlements/velprintalar|Velprintalar]], [[settlements/immilmar|Immilmar]], [[settlements/telflamm|Telflamm]]
+- [[regions/unapproachable-east|Unapproachable East]] → [[settlements/eltabbar|Eltabbar]], [[settlements/velprintalar|Velprintalar]], [[settlements/immilmar|Immilmar]], [[settlements/telflamm|Telflamm]], [[settlements/tsurlagol|Tsurlagol]], [[settlements/delthuntle|Delthuntle]]
 - [[regions/sea-of-fallen-stars|Sea of Fallen Stars]] → [[settlements/selgaunt|Selgaunt]], [[settlements/velprintalar|Velprintalar]]
 - [[regions/old-empires|Old Empires]] → [[settlements/skuld|Skuld]], [[settlements/unthalass|Unthalass]], [[settlements/cimbar|Cimbar]]
 
