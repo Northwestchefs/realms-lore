@@ -66,6 +66,7 @@ Amn uses mixed security layers:
 - [[factions/council-of-six|Council of Six]]
 - [[factions/cowled-wizards|Cowled Wizards]]
 - [[factions/shadow-thieves-athkatla|Shadow Thieves (Athkatla)]]
+- [[factions/knights-of-the-shield|Knights of the Shield]]
 - elite house interests such as [[noble-houses/house-de-lyr|House de'Lyr]]
 
 ## Notable Landmarks
@@ -73,6 +74,7 @@ Amn uses mixed security layers:
 
 ## Notable People
 - [[people/renal-bloodscalp|Renal Bloodscalp]]
+- [[people/jastor-rheel|Jastor Rheel]]
 
 ## Relationships
 Amn's diplomacy is primarily economic. It pressures rivals through tariffs, access rights, convoy protection, and credit terms before open war.

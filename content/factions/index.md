@@ -11,6 +11,8 @@ Power blocs, orders, councils, and covert networks that shape events across the 
 - [[factions/council-of-six|Council of Six]]
 - [[factions/cowled-wizards|Cowled Wizards]]
 - [[factions/war-wizards|War Wizards]]
+- [[factions/flaming-fist|Flaming Fist]]
+- [[factions/wychlaran|Wychlaran]]
 
 ## Transnational and Expeditionary Factions
 
@@ -18,10 +20,14 @@ Power blocs, orders, councils, and covert networks that shape events across the 
 - [[factions/lords-alliance|Lords' Alliance]]
 - [[factions/order-of-the-gauntlet|Order of the Gauntlet]]
 - [[factions/emerald-enclave|Emerald Enclave]]
+- [[factions/arcane-brotherhood|Arcane Brotherhood]]
 - [[factions/red-wizards-of-thay|Red Wizards of Thay]]
 - [[factions/zhentarim|Zhentarim]]
 - [[factions/cult-of-the-dragon|Cult of the Dragon]]
 - [[factions/shadow-thieves-athkatla|Shadow Thieves (Athkatla)]]
+- [[factions/knights-of-the-shield|Knights of the Shield]]
+- [[factions/bregan-daerthe|Bregan D'aerthe]]
+- [[factions/kraken-society|Kraken Society]]
 
 ## Quick Patron Picks
 
@@ -31,6 +37,8 @@ Power blocs, orders, councils, and covert networks that shape events across the 
 - **Wilderness and travel arcs:** [[factions/emerald-enclave|Emerald Enclave]]
 - **Moral-gray contracts:** [[factions/zhentarim|Zhentarim]]
 - **High-threat magical antagonists:** [[factions/red-wizards-of-thay|Red Wizards of Thay]]
+- **Urban military pressure:** [[factions/flaming-fist|Flaming Fist]]
+- **Coastal conspiracy threat:** [[factions/kraken-society|Kraken Society]]
 
 ## Notable Faces by Faction
 
@@ -42,6 +50,12 @@ Power blocs, orders, councils, and covert networks that shape events across the 
 - [[factions/red-wizards-of-thay|Red Wizards of Thay]] → [[people/szass-tam|Szass Tam]]
 - [[factions/zhentarim|Zhentarim]] → [[people/davil-starsong|Davil Starsong]], [[people/manshoon|Manshoon]]
 - [[factions/shadow-thieves-athkatla|Shadow Thieves (Athkatla)]] → [[people/renal-bloodscalp|Renal Bloodscalp]]
+- [[factions/arcane-brotherhood|Arcane Brotherhood]] → [[people/ilyra-vaust|Ilyra Vaust]]
+- [[factions/flaming-fist|Flaming Fist]] → [[people/marshal-saelra-vonn|Marshal Saelra Vonn]]
+- [[factions/knights-of-the-shield|Knights of the Shield]] → [[people/jastor-rheel|Jastor Rheel]]
+- [[factions/wychlaran|Wychlaran]] → [[people/yelena-embervein|Yelena Embervein]]
+- [[factions/bregan-daerthe|Bregan D'aerthe]] → [[people/krenlin-auvryndar|Krenlin Auvryndar]]
+- [[factions/kraken-society|Kraken Society]] → [[people/neth-varr|Neth Varr]]
 
 ## Nation Jump Links
 
@@ -49,6 +63,9 @@ Power blocs, orders, councils, and covert networks that shape events across the 
 - [[nations-realms/cormyr|Cormyr]] → [[factions/war-wizards|War Wizards]], [[factions/harpers|Harpers]]
 - [[nations-realms/thay|Thay]] → [[factions/red-wizards-of-thay|Red Wizards of Thay]]
 - [[nations-realms/waterdeep|Waterdeep]] → [[factions/lords-alliance|Lords' Alliance]], [[factions/harpers|Harpers]], [[factions/zhentarim|Zhentarim]]
+- [[nations-realms/luskan|Luskan]] → [[factions/arcane-brotherhood|Arcane Brotherhood]], [[factions/bregan-daerthe|Bregan D'aerthe]], [[factions/kraken-society|Kraken Society]]
+- [[nations-realms/baldurs-gate|Baldur's Gate]] → [[factions/flaming-fist|Flaming Fist]], [[factions/lords-alliance|Lords' Alliance]]
+- [[nations-realms/rashemen|Rashemen]] → [[factions/wychlaran|Wychlaran]], [[factions/red-wizards-of-thay|Red Wizards of Thay]]
 
 ## Related
 

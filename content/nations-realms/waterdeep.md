@@ -41,6 +41,7 @@ City watch structures, naval defense, hired specialists, and allied adventuring 
 - [[settlements/waterdeep-city|Waterdeep (City)]]: political, financial, and cultural center of the polity.
 
 ## Factions and Power Blocs
+- [[factions/bregan-daerthe|Bregan D'aerthe]]
 - masked civic leadership circles
 - major merchant costers and guild alliances
 - noble houses with district-level influence, including [[noble-houses/house-cassalanter|House Cassalanter]]

@@ -46,6 +46,9 @@ Naval patrols, coastal forts, and island militias are critical to defense.
 - Seafaring captains and harbor guilds
 - Druidic and temple authorities
 
+## Notable People
+- [[people/neth-varr|Neth Varr]]
+
 ## Relations
 Maintains active sea-lane ties with [[nations-realms/luskan|Luskan]] and mainland Sword Coast powers.
 

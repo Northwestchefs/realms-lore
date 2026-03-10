@@ -43,8 +43,15 @@ Naval squadrons, dock militias, and hired blades protect local interests.
 
 ## Factions and Power Blocs
 - Ship captains and port syndicates
-- Arcane power circles
+- [[factions/arcane-brotherhood|Arcane Brotherhood]]
+- [[factions/bregan-daerthe|Bregan D'aerthe]]
+- [[factions/kraken-society|Kraken Society]]
 - Mercenary and intelligence networks
+
+## Notable People
+- [[people/ilyra-vaust|Ilyra Vaust]]
+- [[people/krenlin-auvryndar|Krenlin Auvryndar]]
+- [[people/neth-varr|Neth Varr]]
 
 ## Relations
 Competes and bargains with [[nations-realms/luruar|Luruar]] and other northern coast powers for route control.

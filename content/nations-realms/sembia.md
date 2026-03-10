@@ -46,6 +46,9 @@ Defense can include city militias, hired companies, and security forces aligned 
 - Banking circles and investment syndicates
 - Civic legal authorities and mercantile courts
 
+## Notable People
+- [[people/jastor-rheel|Jastor Rheel]]
+
 ## Relations
 - Strong economic interdependence with neighbors
 - Competitive diplomacy where trade policy doubles as foreign policy

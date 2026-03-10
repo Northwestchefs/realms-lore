@@ -42,9 +42,13 @@ City guards, harbor patrols, and contracted blades enforce order unevenly, often
 
 ## Factions and Power Blocs
 - merchant patriar circles and allied financiers
+- [[factions/flaming-fist|Flaming Fist]]
 - district-level enforcer networks
 - guild coalitions shaping labor and licensing
 - faith-backed charities and local militias
+
+## Notable People
+- [[people/marshal-saelra-vonn|Marshal Saelra Vonn]]
 
 ## Relations
 Baldur's Gate maintains pragmatic ties with nearby powers, prioritizing route control, revenue protection, and political autonomy.

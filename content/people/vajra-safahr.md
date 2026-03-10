@@ -34,7 +34,7 @@ STR 10 (+0) DEX 14 (+2) CON 12 (+1) INT 20 (+5) WIS 15 (+2) CHA 14 (+2)
 Saving Throws: Int +10, Wis +7
 Skills: Arcana +15, History +10, Insight +7, Perception +7
 Damage Vulnerabilities: None
-Damage Resistances: force
+Damage Resistances: Force
 Damage Immunities: None
 Condition Immunities: None
 Senses: passive Perception 17

@@ -44,7 +44,11 @@ Renowned light forces, berserker traditions, and terrain-savvy defenders deter i
 ## Factions and Power Blocs
 - Regional council leadership
 - Warrior lodges and frontier hosts
+- [[factions/wychlaran|Wychlaran]]
 - Traditional spiritual circles
+
+## Notable People
+- [[people/yelena-embervein|Yelena Embervein]]
 
 ## Relations
 Defines policy around containing [[nations-realms/thay|Thay]] while keeping pragmatic channels with eastern neighbors.

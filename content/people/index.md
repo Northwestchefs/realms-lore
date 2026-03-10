@@ -24,6 +24,12 @@ Public figures, rulers, and influential operators likely to matter in play.
 - [[people/vesk-talandra|Vesk Talandra]]
 - [[people/captain-harlon-drex|Captain Harlon Drex]]
 - [[people/brother-kestrel-vane|Brother Kestrel Vane]]
+- [[people/ilyra-vaust|Ilyra Vaust]]
+- [[people/marshal-saelra-vonn|Marshal Saelra Vonn]]
+- [[people/jastor-rheel|Jastor Rheel]]
+- [[people/yelena-embervein|Yelena Embervein]]
+- [[people/krenlin-auvryndar|Krenlin Auvryndar]]
+- [[people/neth-varr|Neth Varr]]
 
 ## Faction Quick Browse
 
@@ -34,6 +40,12 @@ Public figures, rulers, and influential operators likely to matter in play.
 - [[factions/zhentarim|Zhentarim]] → [[people/davil-starsong|Davil Starsong]], [[people/manshoon|Manshoon]]
 - [[factions/red-wizards-of-thay|Red Wizards of Thay]] → [[people/szass-tam|Szass Tam]]
 - [[factions/shadow-thieves-athkatla|Shadow Thieves (Athkatla)]] → [[people/renal-bloodscalp|Renal Bloodscalp]]
+- [[factions/arcane-brotherhood|Arcane Brotherhood]] → [[people/ilyra-vaust|Ilyra Vaust]]
+- [[factions/flaming-fist|Flaming Fist]] → [[people/marshal-saelra-vonn|Marshal Saelra Vonn]]
+- [[factions/knights-of-the-shield|Knights of the Shield]] → [[people/jastor-rheel|Jastor Rheel]]
+- [[factions/wychlaran|Wychlaran]] → [[people/yelena-embervein|Yelena Embervein]]
+- [[factions/bregan-daerthe|Bregan D'aerthe]] → [[people/krenlin-auvryndar|Krenlin Auvryndar]]
+- [[factions/kraken-society|Kraken Society]] → [[people/neth-varr|Neth Varr]]
 
 ## Browse by Nation Pressure Point
 
@@ -42,6 +54,9 @@ Public figures, rulers, and influential operators likely to matter in play.
 - [[nations-realms/luskan|Luskan]] → dock politics, convoy security, smuggling pressure
 - [[nations-realms/thay|Thay]] → regime power, arcane hierarchy, defectors
 - [[nations-realms/waterdeep|Waterdeep]] → civic elites, guild operators, covert brokers
+- [[nations-realms/luskan|Luskan]] → arcane expeditions, covert port cells, smuggler intelligence
+- [[nations-realms/baldurs-gate|Baldur's Gate]] → law-and-order mandates, convoy security, civic crackdowns
+- [[nations-realms/rashemen|Rashemen]] → spirit omens, border defense, anti-Thayan resistance
 
 ## NPC Page Standard
 

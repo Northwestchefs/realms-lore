@@ -34,7 +34,7 @@ STR 10 (+0) DEX 18 (+4) CON 14 (+2) INT 14 (+2) WIS 13 (+1) CHA 18 (+4)
 Saving Throws: Dex +8, Cha +8
 Skills: Deception +12, Insight +5, Investigation +6, Persuasion +12, Sleight of Hand +8, Stealth +8
 Damage Vulnerabilities: None
-Damage Resistances: poison
+Damage Resistances: Poison
 Damage Immunities: None
 Condition Immunities: None
 Senses: passive Perception 11
