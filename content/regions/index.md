@@ -4,24 +4,21 @@ title: Regions
 
 # Regions
 
-Macro-geography of Faerûn and nearby lands, organized for campaign-scale travel and politics.
+Macro-geography for travel planning, campaign pacing, and nation-to-nation context.
 
-## Region Hubs
-
+## Regional Hubs
 - [[regions/sword-coast|Sword Coast]]
 - [[regions/western-heartlands|Western Heartlands]]
 - [[regions/unapproachable-east|Unapproachable East]]
 - [[regions/old-empires|Old Empires]]
 
-## Using Region Pages
-
-Region pages should bridge geography to politics:
-- travel corridors and strategic terrain
-- nation-level powers in the region
-- recurring themes and campaign tensions
+## Region-to-Realm Jump Points
+- Coast politics: [[regions/sword-coast|Sword Coast]] → [[nations-realms/waterdeep|Waterdeep]], [[nations-realms/neverwinter|Neverwinter]], [[nations-realms/luskan|Luskan]]
+- Trade power struggles: [[regions/western-heartlands|Western Heartlands]] → [[nations-realms/amn|Amn]], [[nations-realms/cormyr|Cormyr]], [[nations-realms/baldurs-gate|Baldur's Gate]]
+- Arcane-military pressure: [[regions/unapproachable-east|Unapproachable East]] → [[nations-realms/thay|Thay]], [[nations-realms/rashemen|Rashemen]], [[nations-realms/aglarond|Aglarond]]
+- Legacy empires: [[regions/old-empires|Old Empires]] → [[nations-realms/mulhorand|Mulhorand]], [[nations-realms/unther|Unther]], [[nations-realms/chessenta|Chessenta]]
 
 ## Related
-
 - [[world/index|World]]
 - [[nations-realms/index|Nations & Realms]]
 - [[settlements/index|Settlements]]

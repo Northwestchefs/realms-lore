@@ -38,7 +38,7 @@ Use this section to define officially permitted faiths, suppressed cults, and hi
 Thay combines conventional forces with magically enabled units and specialist operatives.
 
 ## Major Settlements
-- [[settlements/index|Eltabbar]] (capital; detail page TBD)
+- [[settlements/eltabbar|Eltabbar]] (capital)
 - Additional fortress-cities and arcane enclaves (TBD)
 
 ## Factions and Power Blocs

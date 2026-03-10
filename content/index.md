@@ -5,35 +5,36 @@ description: A player-facing Forgotten Realms lore vault for campaign play.
 
 # Forgotten Realms Lore Guide
 
-Welcome to a player-facing guide to the **Forgotten Realms** built for Obsidian and Quartz.
+A lightweight vault map for browsing lore in layers.
 
 ## Start Here
 
-Use this vault as a layered reference:
-1. [[world/index|World]] for broad context
-2. [[regions/index|Regions]] for macro geography
-3. [[nations-realms/index|Nations & Realms]] for politics and power
-4. [[settlements/index|Settlements]], [[faiths/index|Faiths]], [[factions/index|Factions]], and [[people/index|People]] for campaign-facing detail
+1. [[world/index|World]]
+2. [[regions/index|Regions]]
+3. [[nations-realms/index|Nations & Realms]]
+4. [[settlements/index|Settlements]], [[factions/index|Factions]], [[faiths/index|Faiths]], [[people/index|People]]
 
-## Core Hubs
+## Vault Navigation
 
+### Geography and Politics
 - [[world/index|World]]
 - [[regions/index|Regions]]
 - [[nations-realms/index|Nations & Realms]]
+
+### Places and Power
 - [[settlements/index|Settlements]]
-- [[faiths/index|Faiths]]
+- [[landmarks/index|Landmarks]]
 - [[factions/index|Factions]]
 - [[noble-houses/index|Noble Houses]]
+
+### Characters and Play Support
 - [[people/index|People]]
-- [[landmarks/index|Landmarks]]
+- [[faiths/index|Faiths]]
 - [[player-resources/index|Player Resources]]
+- [[templates/nation-template|Templates]]
 
-## Use at the Table
+## Fast Paths
 
-- Follow links outward from a current adventure location.
-- Keep unknown details flexible for your campaign's era.
-- Use stubs as prompts for future sessions rather than hard canon mandates.
-
----
-
-> This repository intentionally avoids DM-only secret revelations and keeps lore broadly player-safe.
+- Running a city adventure? Start at [[settlements/index|Settlements]] and jump to nation and faction links.
+- Building regional travel arcs? Start at [[regions/index|Regions]], then hop into connected realms.
+- Need political tension quickly? Use [[nations-realms/index|Nations & Realms]] + [[factions/index|Factions]].

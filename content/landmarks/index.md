@@ -4,22 +4,18 @@ title: Landmarks
 
 # Landmarks
 
-Ruins, roads, magical sites, monuments, and natural wonders with recurring story value.
+High-value sites, hazards, and wonders that anchor adventures.
 
-## In This Section
-
-Landmark pages should answer:
-- why this site matters now
-- who influences access or control
-- what opportunities and dangers players can expect
-
-## Current and Suggested Stubs
-
-- [[landmarks/undermountain|Undermountain]]
+## Current Entries
 - [[landmarks/dragonmere|Dragonmere]]
+- [[landmarks/undermountain|Undermountain]]
+
+## Browsing Tips
+- Link landmarks to nearby settlements and regions first.
+- Add a one-line reason players care right now.
 
 ## Related
-
 - [[regions/index|Regions]]
 - [[settlements/index|Settlements]]
+- [[nations-realms/index|Nations & Realms]]
 - [[factions/index|Factions]]

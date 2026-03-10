@@ -38,8 +38,8 @@ Religious institutions are present but often subordinate to maritime power polit
 Naval squadrons, dock militias, and hired blades protect local interests.
 
 ## Major Settlements
-- [[settlements/index|Luskan]] (detail page TBD)
-- [[settlements/index|Hosttower District]] (detail page TBD)
+- [[settlements/luskan-city|Luskan (City)]]
+- Hosttower District and adjacent wards (expand as needed)
 
 ## Factions and Power Blocs
 - Ship captains and port syndicates

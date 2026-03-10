@@ -4,27 +4,32 @@ title: Settlements
 
 # Settlements
 
-Cities, towns, ports, fortress-settlements, and notable inhabited locations.
+Cities, ports, market towns, and strongholds with immediate adventure value.
 
-## How to Use This Section
+## Sword Coast Settlements
+- [[settlements/baldurs-gate-city|Baldur's Gate (City)]]
+- [[settlements/neverwinter-city|Neverwinter (City)]]
+- [[settlements/waterdeep-city|Waterdeep (City)]]
+- [[settlements/luskan-city|Luskan (City)]]
 
-Settlement pages should stay campaign-usable first:
-- identify who holds power publicly
-- highlight what makes the settlement distinct
-- provide clear links to related nations, factions, faiths, and houses
-
-## Current Entries
-
+## Western Heartlands and Amn
 - [[settlements/athkatla|Athkatla]]
 - [[settlements/murann|Murann]]
-- [[settlements/suzail|Suzail]]
 - [[settlements/trademeet|Trademeet]]
-- [[settlements/waterdeep-city|Waterdeep (City)]]
+- [[settlements/suzail|Suzail]]
+
+## South and East Gateways
+- [[settlements/calimport|Calimport]]
+- [[settlements/port-nyanzaru|Port Nyanzaru]]
+- [[settlements/eltabbar|Eltabbar]]
+
+## Use at the Table
+- Start with the settlement page, then follow nation and faction links.
+- Keep districts and landmarks lightweight until a campaign needs detail.
 
 ## Related
-
 - [[nations-realms/index|Nations & Realms]]
+- [[regions/index|Regions]]
 - [[factions/index|Factions]]
 - [[faiths/index|Faiths]]
-- [[noble-houses/index|Noble Houses]]
 - [[landmarks/index|Landmarks]]

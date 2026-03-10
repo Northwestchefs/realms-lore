@@ -4,22 +4,17 @@ title: Noble Houses
 
 # Noble Houses
 
-Lineages and dynasties with social, political, military, or financial influence.
-
-## In This Section
-
-Noble house pages should identify:
-- where the house is strongest
-- how it holds power
-- allies, rivals, and likely campaign entanglements
+Dynastic lineages with social and political weight.
 
 ## Current Entries
-
 - [[noble-houses/house-de-lyr|House de'Lyr]]
 - [[noble-houses/house-obarskyr|House Obarskyr]]
 
-## Related
+## Navigation by Nation
+- [[nations-realms/amn|Amn]] → [[noble-houses/house-de-lyr|House de'Lyr]]
+- [[nations-realms/cormyr|Cormyr]] → [[noble-houses/house-obarskyr|House Obarskyr]]
 
+## Related
 - [[nations-realms/index|Nations & Realms]]
 - [[settlements/index|Settlements]]
 - [[people/index|People]]

@@ -4,22 +4,21 @@ title: People
 
 # People
 
-Important public figures, rulers, agents, and historical names known to player characters.
+Public figures, rulers, and influential operators likely to matter in play.
 
-## Page Expectations
-
-People pages should remain concise and campaign-usable:
-- public profile and reputation
-- affiliations and likely leverage
-- what this person is useful for in play
-
-## Current and Suggested Stubs
-
+## Current Entries
 - [[people/alusair-obarskyr|Alusair Obarskyr]]
 - [[people/szass-tam|Szass Tam]]
 
-## Related
+## Where to Expand Next
+- Add one notable face per high-traffic nation page.
+- Keep entries short: profile, alliances, leverage, hooks.
 
-- [[nations-realms/index|Nations & Realms]]
+## Suggested Nation Links
+- [[nations-realms/cormyr|Cormyr]]
+- [[nations-realms/thay|Thay]]
+- [[nations-realms/waterdeep|Waterdeep]]
+
+## Related
 - [[factions/index|Factions]]
 - [[noble-houses/index|Noble Houses]]

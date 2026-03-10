@@ -38,8 +38,8 @@ Temple institutions are politically connected in major cities and can legitimize
 Maintains professional garrisons, naval assets, and contracted auxiliaries for trade protection.
 
 ## Major Settlements
-- [[settlements/index|Calimport]] (detail page TBD)
-- [[settlements/index|Memnon]] (detail page TBD)
+- [[settlements/calimport|Calimport]]
+- Memnon (detail page TBD)
 
 ## Factions and Power Blocs
 - Old noble-financier dynasties
