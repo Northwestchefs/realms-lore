@@ -20,7 +20,8 @@
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
     "srd:seed": "node scripts/srd/seed-reference.mjs",
     "npc:srd-reference": "node scripts/npc/print-srd-npc-reference.mjs",
-    "npc:check-statblocks": "node scripts/npc/validate-import-statblocks.mjs"
+    "npc:check-statblocks": "node scripts/npc/validate-import-statblocks.mjs",
+    "entity:validate-images": "python3 scripts/entities/validate-entity-image-schema.py"
   },
   "engines": {
     "npm": ">=10.9.2",

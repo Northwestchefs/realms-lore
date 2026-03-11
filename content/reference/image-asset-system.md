@@ -75,7 +75,7 @@ creatureType: beast # monsters only
 - `status`: `active`, `draft`, or `retired`.
 - `creatureType`: monster category (`beast`, `undead`, `fey`, `monstrosity`, `dragon`, `humanoid`).
 
-Legacy fields like `primary_image`, `token_image`, and `alternate_images` can remain for compatibility.
+Legacy fields (`primary_image`, `token_image`, `alternate_images`) are treated as migration-only. Prefer canonical entity fields and validate with [[reference/entity-image-schema-validation|Entity Image Schema Validation]].
 
 ## 4) Entity Page Canonical Fields
 
