@@ -9,6 +9,7 @@ tags:
   - npc
 race:
 raceGroup:
+sexPresentation:
 class:
 subclass:
 role:
@@ -41,7 +42,7 @@ One short paragraph (2-4 lines) on who this person is and why they matter in pla
 
 ## Image
 
-> Canonical image fields for NPC pages: `image`, `imageRole`, `fullBodyImage`, `assetFolder`.
+> Canonical image fields for NPC pages: `image`, `imageRole`, `fullBodyImage`, `assetFolder`, `raceGroup`, `race`, `sexPresentation`, `class`, `subclass`.
 
 ### Primary Portrait
 

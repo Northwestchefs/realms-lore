@@ -4,4 +4,4 @@ Use this folder for official expanded playable 5e species/races outside the core
 
 Pattern:
 
-- `assets/images/npcs/expanded/<race>/<npc-slug>/`
+- `assets/images/npcs/expanded/<race>/<sexPresentation>/<npc-slug>/`

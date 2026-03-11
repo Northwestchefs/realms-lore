@@ -4,4 +4,4 @@ Use this folder for core playable 5e species/races (for example: aasimar, dragon
 
 Pattern:
 
-- `assets/images/npcs/core/<race>/<npc-slug>/`
+- `assets/images/npcs/core/<race>/<sexPresentation>/<npc-slug>/`

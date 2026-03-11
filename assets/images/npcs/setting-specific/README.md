@@ -4,4 +4,4 @@ Use this folder for playable species/races tied to particular settings or lineag
 
 Pattern:
 
-- `assets/images/npcs/setting-specific/<race>/<npc-slug>/`
+- `assets/images/npcs/setting-specific/<race>/<sexPresentation>/<npc-slug>/`

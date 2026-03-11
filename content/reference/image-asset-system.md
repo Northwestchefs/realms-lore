@@ -22,23 +22,31 @@ Top-level asset storage:
 - `assets/images/factions/`
 - `assets/images/misc/`
 
-NPC image sets follow a species/race-first structure:
+NPC image sets follow race/species + sex presentation first:
 
-- `assets/images/npcs/<raceGroup>/<race>/<npc-slug>/`
+- `assets/images/npcs/<raceGroup>/<race>/<sexPresentation>/<npc-slug>/`
 
-Use these race groups for large official 5e coverage:
+Use these race groups for broad official 5e coverage:
 
 - `core/`
 - `expanded/`
 - `setting-specific/`
 
+Use these sex presentation folders:
+
+- `male/`
+- `female/`
+- `ambiguous-or-androgynous/`
+- `mixed-group/`
+
 Example paths:
 
-- `assets/images/npcs/core/elf/elf-tavern-dweller-01/`
-- `assets/images/npcs/core/dwarf/dwarven-rogue-01/`
-- `assets/images/npcs/core/human/human-noble-01/`
-- `assets/images/npcs/expanded/firbolg/firbolg-wanderer-01/`
-- `assets/images/npcs/core/tiefling/tiefling-warlock-01/`
+- `assets/images/npcs/core/elf/female/elf-tavern-dweller-01/`
+- `assets/images/npcs/core/dwarf/male/dwarven-rogue-01/`
+- `assets/images/npcs/core/human/male/human-noble-01/`
+- `assets/images/npcs/expanded/firbolg/female/firbolg-wanderer-01/`
+- `assets/images/npcs/expanded/tiefling/ambiguous-or-androgynous/tiefling-warlock-01/`
+- `assets/images/npcs/core/human/mixed-group/human-tavern-group-01/`
 
 ## 2) Naming Convention
 
@@ -61,20 +69,22 @@ Each NPC asset folder should have an `index.md` note with this schema.
 entity_type: npc
 entity_slug: elf-tavern-dweller-01
 entity_note: people/elf-tavern-dweller-01
-image: assets/images/npcs/core/elf/elf-tavern-dweller-01/elf-tavern-dweller-01-portrait.webp
+image: assets/images/npcs/core/elf/female/elf-tavern-dweller-01/elf-tavern-dweller-01-portrait.webp
 imageRole: portrait
-fullBodyImage: assets/images/npcs/core/elf/elf-tavern-dweller-01/elf-tavern-dweller-01-fullbody.webp
-assetFolder: assets/images/npcs/core/elf/elf-tavern-dweller-01/
+fullBodyImage: assets/images/npcs/core/elf/female/elf-tavern-dweller-01/elf-tavern-dweller-01-fullbody.webp
+assetFolder: assets/images/npcs/core/elf/female/elf-tavern-dweller-01/
 tags:
   - npc
   - race/elf
   - race-group/core
-race: elf
+  - sex/female
 raceGroup: core
-class:
-subclass:
+race: elf
+sexPresentation: female
+class: n/a
+subclass: n/a
 role: tavern-dweller
-archetype: urban-local
+archetype: urban-commoner
 faction:
 region: sword-coast
 status: draft
@@ -91,9 +101,24 @@ notes: Placeholder production notes.
 - `assetFolder` must be deterministic, parser-friendly, and end with a trailing slash.
 - `raceGroup` stores the top taxonomy layer (`core`, `expanded`, `setting-specific`).
 - `race` stores the species/race folder value.
-- `class`, `subclass`, `role`, and `archetype` are optional now and reserved for future browsing.
+- `sexPresentation` is required for curated individual sets, unless the folder is explicitly `mixed-group`.
+- `class` is the main class identity when known (example: `rogue`, `ranger`, `warlock`).
+- `subclass` is the specialization when known (example: `assassin`, `gloom-stalker`, `archfey`).
+- Use `role` + `archetype` when exact `class`/`subclass` is unknown (example: `tavern-dweller`, `urban-commoner`).
 
-## 4) NPC Entity Page Canonical Fields
+## 4) Sex Presentation Guidance
+
+Use the most practical visual bucket:
+
+- `male`: clearly male-presenting individual reference set.
+- `female`: clearly female-presenting individual reference set.
+- `ambiguous-or-androgynous`: intentionally non-binary, ambiguous, or androgynous visual presentation.
+- `mixed-group`: one image set intended to represent multiple people in the same scene.
+
+Use individual folders (`male`, `female`, `ambiguous-or-androgynous`) for single-NPC references.
+Use `mixed-group` only when the portrait/full-body pair is intentionally a group visual and not a single NPC.
+
+## 5) NPC Entity Page Canonical Fields
 
 Use the same canonical schema fields on linked NPC pages when image metadata is present:
 
@@ -101,14 +126,15 @@ Use the same canonical schema fields on linked NPC pages when image metadata is 
 image: assets/images/.../elf-tavern-dweller-01-portrait.webp
 imageRole: portrait
 fullBodyImage: assets/images/.../elf-tavern-dweller-01-fullbody.webp
-assetFolder: assets/images/npcs/core/elf/elf-tavern-dweller-01/
-tags: [npc, race/elf]
-race: elf
+assetFolder: assets/images/npcs/core/elf/female/elf-tavern-dweller-01/
+tags: [npc, race/elf, sex/female]
 raceGroup: core
-class:
-subclass:
+race: elf
+sexPresentation: female
+class: n/a
+subclass: n/a
 role: tavern-dweller
-archetype: urban-local
+archetype: urban-commoner
 faction:
 region:
 status: draft
@@ -117,48 +143,35 @@ promptSummary:
 notes:
 ```
 
-## 5) Embedding in Obsidian Notes
-
-Preferred embed format:
-
-```md
-![[assets/images/npcs/core/elf/elf-tavern-dweller-01/elf-tavern-dweller-01-portrait.webp|320]]
-```
-
-Optional full-body embed:
-
-```md
-![[assets/images/npcs/core/elf/elf-tavern-dweller-01/elf-tavern-dweller-01-fullbody.webp|280]]
-```
-
 ## 6) MidJourney Import Workflow (Contributor)
 
 1. Export/download portrait and full-body images from MidJourney.
-2. Choose `raceGroup`, `race`, and `npc-slug`.
-3. Create the asset folder: `assets/images/npcs/<raceGroup>/<race>/<npc-slug>/`.
+2. Choose `raceGroup`, `race`, `sexPresentation`, and `npc-slug`.
+3. Create the asset folder: `assets/images/npcs/<raceGroup>/<race>/<sexPresentation>/<npc-slug>/`.
 4. Rename files to standard format:
    - `<npc-slug>-portrait.<ext>`
    - `<npc-slug>-fullbody.<ext>`
 5. Add or update `index.md` in that folder using the canonical descriptor schema.
-6. Create or update the related NPC page (`content/people/<npc-slug>.md`) and align image metadata.
-7. Add/update the entry in [[reference/npc-image-gallery|NPC Image Gallery]].
-8. When known, fill optional future-facing fields: `class`, `subclass`, `role`, `archetype`.
+6. Fill `class` and `subclass` when known.
+7. If class is uncertain, use `class: n/a`, `subclass: n/a`, and fill `role`/`archetype`.
+8. Create or update the related NPC page (`content/people/<npc-slug>.md`) and align image metadata.
+9. Add/update the entry in [[reference/npc-image-gallery|NPC Image Gallery]] so it can surface in Obsidian gallery views.
 
-## 7) Future Class/Subclass Browsing (Planned)
+## 7) Class/Subclass Planning (Metadata First)
 
-The folder structure stays species/race-first. Future filters should read metadata fields from descriptor notes and NPC pages:
+Keep folders race/species + sex presentation first. Class browsing can be added later by querying metadata:
 
 - `class`
 - `subclass`
 - `role`
 - `archetype`
 
-Example future queries:
+Examples:
 
-- elf + ranger + gloom-stalker
-- dwarf + rogue + assassin
-- human + fighter + battle-master
-- tiefling + warlock + archfey
+- `class: rogue` / `subclass: assassin`
+- `class: ranger` / `subclass: gloom-stalker`
+- `class: warlock` / `subclass: archfey`
+- `class: n/a` / `subclass: n/a` / `role: tavern-dweller` / `archetype: urban-commoner`
 
 ## Related
 
