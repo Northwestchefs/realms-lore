@@ -42,6 +42,16 @@ female elf, full body, fully visible from head to toe, centered single character
   - `elf-dark-fantasy-pack-01-portrait.<ext>`
   - `elf-dark-fantasy-pack-01-fullbody.<ext>`
 
+## Reference Images
+
+This repo keeps the prompt ZIP as source of truth. If your clone does not show the extracted PNG files, generate them locally:
+
+- Run: `python assets/images/npcs/core/elf/female/elf-dark-fantasy-pack-01/extract-references.py`
+- Output files created in this folder:
+  - `elf-dark-fantasy-pack-01-reference-01.png` ... `elf-dark-fantasy-pack-01-reference-12.png`
+- Required source archive:
+  - `midjourney_session (1).zip`
+
 ## Related
 
 - [[reference/image-asset-system|Image Asset System]]
