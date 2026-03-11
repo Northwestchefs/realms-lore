@@ -30,3 +30,14 @@ Optional target/path override:
 ```bash
 npm run images:import-zips -- --target npcs --path core/drow/female/dark-elf-fantasy-pack-01
 ```
+
+## Troubleshooting
+
+If you see an error about "invalid top-level folder(s)" for a ZIP that only has image files at the root:
+
+1. Make sure `scripts/assets/import-image-zips.mjs` has no merge conflict markers.
+2. Re-run the importer:
+
+```bash
+npm run images:import-zips
+```
