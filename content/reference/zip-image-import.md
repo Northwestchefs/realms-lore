@@ -14,24 +14,23 @@ Fast workflow for importing bulk image packs into `assets/images/`.
 ## Staging
 
 - Drop ZIP archives into `imports/zips/`.
-- Keep each ZIP scoped to approved top-level asset folders:
-  - `npcs/`
-  - `monsters/`
-  - `locations/`
-  - `items/`
-  - `factions/`
-  - `misc/`
+- Use either:
+  - **Structured ZIP:** approved top-level folders (`npcs/`, `monsters/`, `locations/`, `items/`, `factions/`, `misc/`).
+  - **Flat ZIP:** image files in ZIP root (no folders).
 
 ## Run Import
 
 - Command: `npm run images:import-zips`
-- The importer extracts validated ZIPs into `assets/images/`.
+- Structured ZIPs extract directly into `assets/images/`.
+- Flat ZIPs extract to `assets/images/misc/<zip-name-slug>/`.
+- Optional flat ZIP override: `npm run images:import-zips -- --target npcs --path core/drow/female/dark-elf-fantasy-pack-01`
 
 ## Safety Checks
 
 - Blocks unsafe paths (path traversal).
 - Blocks empty archives.
-- Blocks unexpected top-level folders.
+- Blocks unexpected top-level folders in structured ZIPs.
+- Blocks non-image files in flat ZIPs.
 
 ## After Import
 

@@ -7,6 +7,54 @@ const repoRoot = process.cwd()
 const stagingDir = path.resolve(repoRoot, "imports", "zips")
 const outputBaseDir = path.resolve(repoRoot, "assets", "images")
 const allowedTargets = new Set(["npcs", "monsters", "locations", "items", "factions", "misc"])
+const allowedFlatExtensions = new Set([".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg", ".avif"])
+
+const parseArgs = () => {
+  const argv = process.argv.slice(2)
+  let target = "misc"
+  let relativePath = ""
+
+  for (let i = 0; i < argv.length; i++) {
+    const arg = argv[i]
+    if (arg === "--target") {
+      target = argv[i + 1] ?? target
+      i += 1
+      continue
+    }
+
+    if (arg.startsWith("--target=")) {
+      target = arg.slice("--target=".length)
+      continue
+    }
+
+    if (arg === "--path") {
+      relativePath = argv[i + 1] ?? relativePath
+      i += 1
+      continue
+    }
+
+    if (arg.startsWith("--path=")) {
+      relativePath = arg.slice("--path=".length)
+    }
+  }
+
+  if (!allowedTargets.has(target)) {
+    throw new Error(`Invalid --target '${target}'. Use one of: ${[...allowedTargets].join(", ")}`)
+  }
+
+  const normalizedPath = relativePath
+    .replaceAll("\\", "/")
+    .trim()
+    .replace(/^\/+|\/+$/g, "")
+  if (normalizedPath) {
+    const segments = normalizedPath.split("/")
+    if (segments.some((seg) => seg === "." || seg === ".." || seg.length === 0)) {
+      throw new Error("--path must be a safe relative path (no '.' or '..').")
+    }
+  }
+
+  return { target, relativePath: normalizedPath }
+}
 
 const runUnzipList = (zipPath) =>
   new Promise((resolve, reject) => {
@@ -67,7 +115,14 @@ const isUnsafePath = (entry) => {
   return segments.some((segment) => segment === "." || segment === "..")
 }
 
-const validateZipContents = (entries, zipName) => {
+const slugFromZipName = (zipName) =>
+  zipName
+    .replace(/\.zip$/i, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "") || "imported-pack"
+
+const validateZipContents = (entries, zipName, options) => {
   if (entries.length === 0) {
     throw new Error(`${zipName}: zip is empty`)
   }
@@ -83,12 +138,35 @@ const validateZipContents = (entries, zipName) => {
     }
   }
 
-  const roots = new Set(
-    fileEntries
-      .map((entry) => entry.replaceAll("\\", "/").split("/").filter(Boolean)[0])
-      .filter(Boolean),
-  )
+  const normalizedFiles = fileEntries.map((entry) => entry.replaceAll("\\", "/"))
+  const isFlatArchive = normalizedFiles.every((entry) => !entry.includes("/"))
 
+  if (isFlatArchive) {
+    const invalidFiles = normalizedFiles.filter((entry) => {
+      const ext = path.extname(entry).toLowerCase()
+      return !allowedFlatExtensions.has(ext)
+    })
+
+    if (invalidFiles.length > 0) {
+      throw new Error(
+        `${zipName}: flat ZIP mode only supports image files (${[...allowedFlatExtensions].join(
+          ", ",
+        )}). Invalid file(s): ${invalidFiles.join(", ")}`,
+      )
+    }
+
+    const destination = path.join(
+      outputBaseDir,
+      options.target,
+      options.relativePath,
+      slugFromZipName(zipName),
+    )
+    return { mode: "flat", destination }
+  }
+
+  const roots = new Set(
+    normalizedFiles.map((entry) => entry.split("/").filter(Boolean)[0]).filter(Boolean),
+  )
   const invalidRoots = [...roots].filter((root) => !allowedTargets.has(root))
   if (invalidRoots.length > 0) {
     throw new Error(
@@ -97,6 +175,8 @@ const validateZipContents = (entries, zipName) => {
       ].join(", ")}`,
     )
   }
+
+  return { mode: "structured", destination: outputBaseDir }
 }
 
 const ensureUnzipAvailable = async () => {
@@ -112,7 +192,7 @@ const ensureUnzipAvailable = async () => {
       })
       child.on("error", reject)
     })
-  } catch (error) {
+  } catch {
     throw new Error("The `unzip` command is required. Please install it and retry.")
   }
 }
@@ -125,14 +205,13 @@ const collectZips = async () => {
       .map((entry) => path.join(stagingDir, entry.name))
       .sort((a, b) => a.localeCompare(b))
   } catch (error) {
-    if (error && error.code === "ENOENT") {
-      return []
-    }
+    if (error && error.code === "ENOENT") return []
     throw error
   }
 }
 
 const main = async () => {
+  const options = parseArgs()
   await ensureUnzipAvailable()
 
   const zipFiles = await collectZips()
@@ -141,18 +220,20 @@ const main = async () => {
     return
   }
 
-  await fs.mkdir(outputBaseDir, { recursive: true })
-
   let importedCount = 0
 
   for (const zipPath of zipFiles) {
     const zipName = path.basename(zipPath)
     const entries = await runUnzipList(zipPath)
-    validateZipContents(entries, zipName)
+    const plan = validateZipContents(entries, zipName, options)
 
-    await runUnzipExtract(zipPath, outputBaseDir)
+    await fs.mkdir(plan.destination, { recursive: true })
+    await runUnzipExtract(zipPath, plan.destination)
+
     importedCount += 1
-    console.log(`Imported ${zipName} into assets/images/`)
+    console.log(
+      `Imported ${zipName} (${plan.mode}) into ${path.relative(repoRoot, plan.destination)}/`,
+    )
   }
 
   console.log(`Imported ${importedCount} zip file(s).`)

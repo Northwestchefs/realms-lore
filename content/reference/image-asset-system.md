@@ -178,22 +178,21 @@ Examples:
 For large drops of image packs, use the ZIP importer script:
 
 1. Place ZIP files in `imports/zips/`.
-2. Ensure each ZIP uses one or more approved top-level folders only:
-   - `npcs/`
-   - `monsters/`
-   - `locations/`
-   - `items/`
-   - `factions/`
-   - `misc/`
+2. Choose ZIP style:
+   - **Structured ZIP:** top-level folders are one or more of `npcs/`, `monsters/`, `locations/`, `items/`, `factions/`, `misc/`.
+   - **Flat ZIP:** images at archive root (no folders) are auto-imported to `assets/images/misc/<zip-name-slug>/`.
 3. Run: `npm run images:import-zips`
-4. Confirm extracted files landed under `assets/images/...`
-5. Update related `index.md` metadata pages for newly imported sets.
+4. Optional override for flat ZIP destination:
+   - `npm run images:import-zips -- --target npcs --path core/drow/female/dark-elf-fantasy-pack-01`
+5. Confirm extracted files landed under `assets/images/...`
+6. Update related `index.md` metadata pages for newly imported sets.
 
 Validation guardrails:
 
 - Rejects empty ZIP archives.
 - Rejects path traversal entries (unsafe `../` style paths).
-- Rejects archives with unsupported top-level folders.
+- For flat ZIPs, accepts image file types only (`.png`, `.jpg`, `.jpeg`, `.webp`, `.gif`, `.svg`, `.avif`).
+- Rejects structured archives with unsupported top-level folders.
 
 ## Related
 
