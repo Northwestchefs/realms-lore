@@ -179,3 +179,4 @@ Examples:
 - [[reference/monster-image-gallery|Monster Image Gallery]]
 - [[templates/person-npc-template|Person NPC Template]]
 - [[templates/npc-image-asset-index-template|NPC Image Asset Index Template]]
+- [[reference/midjourney-prompt-library|MidJourney Prompt Library]]
