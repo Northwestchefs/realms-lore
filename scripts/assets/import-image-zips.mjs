@@ -75,7 +75,6 @@ const runUnzipList = (zipPath) =>
         reject(new Error(`Failed to inspect zip ${zipPath}: ${stderr.trim()}`))
         return
       }
-
       const entries = stdout
         .split("\n")
         .map((line) => line.trim())
