@@ -22,10 +22,23 @@ Top-level asset storage:
 - `assets/images/factions/`
 - `assets/images/misc/`
 
-Use one slug folder per NPC or monster:
+NPC image sets follow a species/race-first structure:
 
-- `assets/images/npcs/<slug>/`
-- `assets/images/monsters/<slug>/`
+- `assets/images/npcs/<raceGroup>/<race>/<npc-slug>/`
+
+Use these race groups for large official 5e coverage:
+
+- `core/`
+- `expanded/`
+- `setting-specific/`
+
+Example paths:
+
+- `assets/images/npcs/core/elf/elf-tavern-dweller-01/`
+- `assets/images/npcs/core/dwarf/dwarven-rogue-01/`
+- `assets/images/npcs/core/human/human-noble-01/`
+- `assets/images/npcs/expanded/firbolg/firbolg-wanderer-01/`
+- `assets/images/npcs/core/tiefling/tiefling-warlock-01/`
 
 ## 2) Naming Convention
 
@@ -33,134 +46,123 @@ Use lowercase kebab-case filenames.
 
 Pattern:
 
-- `<entity-slug>-<role>.<ext>`
-- `<entity-slug>-<role>-v<version>.<ext>`
-- `<entity-slug>-<variant>-<role>.<ext>`
+- `<npc-slug>-portrait.<ext>`
+- `<npc-slug>-fullbody.<ext>`
+- `<npc-slug>-portrait-v<version>.<ext>` (optional)
+- `<npc-slug>-fullbody-v<version>.<ext>` (optional)
 
-Roles:
+This pass is portrait + full-body only. Token handling is intentionally out of scope.
 
-- `portrait`
-- `fullbody`
-- `token`
-- `reference`
-- `scene`
-- `variant`
+## 3) Canonical NPC Image Descriptor Schema
 
-## 3) Frontmatter Conventions (Gallery-Friendly)
-
-Use these fields on asset folder `index.md` notes so visual galleries can generate consistently.
+Each NPC asset folder should have an `index.md` note with this schema.
 
 ```yaml
-entity_type: npc | monster
-entity_slug: raelin-silverleaf
-entity_note: people/raelin-silverleaf
-image: assets/images/npcs/raelin-silverleaf/raelin-silverleaf-portrait.webp
+entity_type: npc
+entity_slug: elf-tavern-dweller-01
+entity_note: people/elf-tavern-dweller-01
+image: assets/images/npcs/core/elf/elf-tavern-dweller-01/elf-tavern-dweller-01-portrait.webp
 imageRole: portrait
+fullBodyImage: assets/images/npcs/core/elf/elf-tavern-dweller-01/elf-tavern-dweller-01-fullbody.webp
+assetFolder: assets/images/npcs/core/elf/elf-tavern-dweller-01/
 tags:
   - npc
-  - scout
-faction: harpers
+  - race/elf
+  - race-group/core
+race: elf
+raceGroup: core
+class:
+subclass:
+role: tavern-dweller
+archetype: urban-local
+faction:
 region: sword-coast
-status: active
-creatureType: beast # monsters only
+status: draft
+source: midjourney
+promptSummary: Placeholder prompt summary text.
+notes: Placeholder production notes.
 ```
 
-### Field notes
+### Field rules
 
-- `image`: primary gallery image to embed.
-- `imageRole`: what that image is for (`portrait`, `reference`, `token`, etc.).
-- `tags`: compact discoverability labels.
-- `faction`: optional faction tie.
-- `region`: optional primary region.
-- `status`: `active`, `draft`, or `retired`.
-- `creatureType`: monster category (`beast`, `undead`, `fey`, `monstrosity`, `dragon`, `humanoid`).
+- `image` is the canonical primary image.
+- `imageRole` should usually be `portrait`.
+- `fullBodyImage` is the secondary visual reference.
+- `assetFolder` must be deterministic, parser-friendly, and end with a trailing slash.
+- `raceGroup` stores the top taxonomy layer (`core`, `expanded`, `setting-specific`).
+- `race` stores the species/race folder value.
+- `class`, `subclass`, `role`, and `archetype` are optional now and reserved for future browsing.
 
-Legacy fields (`primary_image`, `token_image`, `alternate_images`) are treated as migration-only. Prefer canonical entity fields and validate with [[reference/entity-image-schema-validation|Entity Image Schema Validation]].
+## 4) NPC Entity Page Canonical Fields
 
-## 4) Entity Page Canonical Fields
-
-Use one lean, parser-friendly schema on NPC and monster entity pages:
+Use the same canonical schema fields on linked NPC pages when image metadata is present:
 
 ```yaml
-image: assets/images/.../main-image.svg
-imageRole: portrait # NPC default; monsters usually reference
-tokenImage: assets/images/.../token.svg # optional
-alternateImages:
-  - assets/images/.../alt-image.svg # optional list
-assetFolder: assets/images/<type>/<slug>/
-tags: [npc, scout]
-faction: harpers # NPC optional
-region: sword-coast # optional
-status: active
-creatureType: beast # monster only
+image: assets/images/.../elf-tavern-dweller-01-portrait.webp
+imageRole: portrait
+fullBodyImage: assets/images/.../elf-tavern-dweller-01-fullbody.webp
+assetFolder: assets/images/npcs/core/elf/elf-tavern-dweller-01/
+tags: [npc, race/elf]
+race: elf
+raceGroup: core
+class:
+subclass:
+role: tavern-dweller
+archetype: urban-local
+faction:
+region:
+status: draft
+source: midjourney
+promptSummary:
+notes:
 ```
-
-### Canonical rules for automation
-
-- `image` is the canonical primary image field for entity pages.
-- `tokenImage` is the canonical token handout/VTT token field.
-- `alternateImages` is the canonical list for form, scene, and extra references.
-- `assetFolder` must be a trailing-slash folder path (`assets/images/npcs/<slug>/`) so scripts can resolve `index.md` as `{{assetFolder}}index.md`.
-- Keep asset-folder `index.md` frontmatter aligned with entity note fields for gallery consistency.
 
 ## 5) Embedding in Obsidian Notes
 
 Preferred embed format:
 
 ```md
-![[assets/images/npcs/raelin-silverleaf/raelin-silverleaf-portrait.webp|320]]
+![[assets/images/npcs/core/elf/elf-tavern-dweller-01/elf-tavern-dweller-01-portrait.webp|320]]
 ```
 
-Fallback Markdown format:
+Optional full-body embed:
 
 ```md
-![Raelin Silverleaf portrait](../../assets/images/npcs/raelin-silverleaf/raelin-silverleaf-portrait.webp)
+![[assets/images/npcs/core/elf/elf-tavern-dweller-01/elf-tavern-dweller-01-fullbody.webp|280]]
 ```
 
-## 6) Visual Browsing Pages
+## 6) MidJourney Import Workflow (Contributor)
 
-Use these indexes for image-first browsing:
+1. Export/download portrait and full-body images from MidJourney.
+2. Choose `raceGroup`, `race`, and `npc-slug`.
+3. Create the asset folder: `assets/images/npcs/<raceGroup>/<race>/<npc-slug>/`.
+4. Rename files to standard format:
+   - `<npc-slug>-portrait.<ext>`
+   - `<npc-slug>-fullbody.<ext>`
+5. Add or update `index.md` in that folder using the canonical descriptor schema.
+6. Create or update the related NPC page (`content/people/<npc-slug>.md`) and align image metadata.
+7. Add/update the entry in [[reference/npc-image-gallery|NPC Image Gallery]].
+8. When known, fill optional future-facing fields: `class`, `subclass`, `role`, `archetype`.
 
-- [[reference/npc-image-gallery|NPC Image Gallery]]
-- [[reference/monster-image-gallery|Monster Image Gallery]]
+## 7) Future Class/Subclass Browsing (Planned)
 
-Both pages include:
+The folder structure stays species/race-first. Future filters should read metadata fields from descriptor notes and NPC pages:
 
-- Optional Dataview examples.
-- Manual Markdown fallback cards (plugin-light workflow).
+- `class`
+- `subclass`
+- `role`
+- `archetype`
 
-## 7) Quick Add Workflow
+Example future queries:
 
-### Add a new NPC image set
-
-1. Create `assets/images/npcs/<npc-slug>/`.
-2. Add art files with role-based names.
-3. Create/update `assets/images/npcs/<npc-slug>/index.md` with gallery frontmatter fields.
-4. Update `content/people/<npc-slug>.md` with canonical image frontmatter (`image`, `tokenImage`, `alternateImages`, `assetFolder`) and `## Image` embeds.
-5. Add the NPC card to [[reference/npc-image-gallery|NPC Image Gallery]] if maintaining manual view.
-
-### Add a new monster image set
-
-1. Create `assets/images/monsters/<monster-slug>/`.
-2. Add art files with role-based names.
-3. Create/update `assets/images/monsters/<monster-slug>/index.md` with gallery frontmatter fields.
-4. Set `creatureType` for category browsing.
-5. Update `content/monsters/<monster-slug>.md` with canonical image frontmatter and set `creatureType` for parsing.
-6. Add the monster card to [[reference/monster-image-gallery|Monster Image Gallery]] if maintaining manual view.
+- elf + ranger + gloom-stalker
+- dwarf + rogue + assassin
+- human + fighter + battle-master
+- tiefling + warlock + archfey
 
 ## Related
 
+- [[reference/npc-image-gallery|NPC Image Gallery]]
+- [[reference/monster-image-gallery|Monster Image Gallery]]
 - [[templates/person-npc-template|Person NPC Template]]
-- [[templates/monster-template|Monster Template]]
-- [[people/raelin-silverleaf|NPC Image Example]]
-- [[monsters/winter-wolf|Monster Image Example]]
-
-
-## 8) Monster Variants and Multi-Form Handling
-
-For monsters with multiple forms, keep one canonical page and one asset folder:
-
-- Keep the baseline art in `image` (usually `reference`).
-- Put each variant/form image in `alternateImages`.
-- Keep token-ready forms in `tokenImage` when one token works for all forms; if forms need separate tokens, include them in `alternateImages` with clear filenames (`<slug>-alpha-token.svg`).
-- If variant mechanics are substantial, split mechanics into separate monster notes and keep each note pointed at its own `assetFolder`.
+- [[templates/npc-image-asset-index-template|NPC Image Asset Index Template]]

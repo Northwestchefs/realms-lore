@@ -10,13 +10,20 @@ status: active
 
 # NPC Image Gallery
 
-Visual-first browser for NPC art references.
+Visual-first browser for NPC portrait and full-body references.
 
-## Use This Page For
+## Organization Principle
 
-- Quick portrait and token review before sessions.
-- Fast handout selection at the table.
-- Scanning NPCs by faction or region tags.
+NPC image entries are organized species/race-first:
+
+- `assets/images/npcs/<raceGroup>/<race>/<npc-slug>/`
+
+Use:
+
+- `raceGroup` for top-level grouping (`core`, `expanded`, `setting-specific`)
+- `race` for the specific species/race (`elf`, `firbolg`, `tiefling`, etc.)
+
+Future gallery filtering will layer on metadata (`class`, `subclass`, `role`, `archetype`) without changing this folder structure.
 
 ## Optional Dataview Gallery (Plugin)
 
@@ -25,46 +32,49 @@ Visual-first browser for NPC art references.
 ```dataview
 TABLE WITHOUT ID
 link(entity_note, entity_slug) as NPC,
-"![[" + image + "|180]]" as Image,
-imageRole as "Image Role",
-choice(faction, faction, "-") as Faction,
-choice(region, region, "-") as Region,
+raceGroup as Group,
+race as Race,
+choice(class, class, "-") as Class,
+choice(subclass, subclass, "-") as Subclass,
+"![[" + image + "|180]]" as Portrait,
+"![[" + fullBodyImage + "|180]]" as "Full Body",
 choice(status, status, "active") as Status
 FROM "assets/images/npcs"
 WHERE entity_type = "npc" AND image
-SORT file.name ASC
+SORT raceGroup ASC, race ASC, entity_slug ASC
 ```
 
 ## Manual Gallery (No Plugin Required)
 
-Use this fallback section for guaranteed compatibility.
+### [[assets/images/npcs/core/elf/elf-tavern-dweller-01/index|Elf Tavern Dweller 01]]
 
-### [[people/raelin-silverleaf|Raelin Silverleaf]]
+![[assets/images/npcs/core/elf/elf-tavern-dweller-01/elf-tavern-dweller-01-portrait.webp|220]]
 
-![[assets/images/npcs/raelin-silverleaf/raelin-silverleaf-portrait.svg|220]]
+- **Race Group:** core
+- **Race:** elf
+- **Class/Subclass:** _(future metadata)_
+- **Asset Index:** [[assets/images/npcs/core/elf/elf-tavern-dweller-01/index|Image Metadata]]
 
-- **Type:** NPC (Scout)
-- **Image Role:** portrait
-- **Faction:** [[factions/harpers|Harpers]] (friendly tie)
-- **Region:** [[regions/sword-coast|Sword Coast]]
-- **Tags:** #npc #scout #sword-coast
-- **Status:** active
-- **Asset Index:** [[assets/images/npcs/raelin-silverleaf/index|Image Metadata]]
+### [[assets/images/npcs/core/dwarf/dwarven-rogue-01/index|Dwarven Rogue 01]]
+
+![[assets/images/npcs/core/dwarf/dwarven-rogue-01/dwarven-rogue-01-portrait.webp|220]]
+
+- **Race Group:** core
+- **Race:** dwarf
+- **Class/Subclass:** rogue / assassin
+- **Asset Index:** [[assets/images/npcs/core/dwarf/dwarven-rogue-01/index|Image Metadata]]
 
 ## Add a New NPC Entry
 
-1. Create `assets/images/npcs/<npc-slug>/`.
-2. Add at least one art file (`<npc-slug>-portrait.webp` recommended).
-3. Add/update `assets/images/npcs/<npc-slug>/index.md` frontmatter fields:
-   - `entity_type: npc`
-   - `entity_note: people/<npc-slug>`
-   - `image: assets/images/npcs/<npc-slug>/<file>`
-   - `imageRole: portrait` (or token/reference/scene/fullbody/variant)
-   - `tags: [npc, ...]`
-   - `faction:` and `region:` when useful
-   - `status: active` (or draft/retired)
-4. Add canonical fields to the NPC note: `image`, `tokenImage`, `alternateImages`, and `assetFolder`.
-5. Add one manual card here (until Dataview is relied on full-time).
+1. Create `assets/images/npcs/<raceGroup>/<race>/<npc-slug>/`.
+2. Add portrait and full-body files:
+   - `<npc-slug>-portrait.<ext>`
+   - `<npc-slug>-fullbody.<ext>`
+3. Create/update the folder `index.md` using [[templates/npc-image-asset-index-template|NPC Image Asset Index Template]].
+4. Keep canonical fields aligned: `image`, `imageRole`, `fullBodyImage`, `assetFolder`, `raceGroup`, `race`.
+5. Add optional future metadata when known: `class`, `subclass`, `role`, `archetype`.
+6. Create/update related NPC page if needed.
+7. Add one manual card here when maintaining the non-Dataview section.
 
 ## Related
 

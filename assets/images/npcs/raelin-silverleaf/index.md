@@ -4,27 +4,33 @@ entity_slug: raelin-silverleaf
 entity_note: people/raelin-silverleaf
 image: assets/images/npcs/raelin-silverleaf/raelin-silverleaf-portrait.svg
 imageRole: portrait
-primary_image: assets/images/npcs/raelin-silverleaf/raelin-silverleaf-portrait.svg
-token_image: assets/images/npcs/raelin-silverleaf/raelin-silverleaf-token.svg
-alternate_images:
-  - assets/images/npcs/raelin-silverleaf/raelin-silverleaf-fullbody-v1.svg
+fullBodyImage: assets/images/npcs/raelin-silverleaf/raelin-silverleaf-fullbody-v1.svg
+assetFolder: assets/images/npcs/raelin-silverleaf/
+raceGroup: expanded
+race: half-elf
+class:
+subclass:
+role: scout
+archetype: field-agent
 faction: harpers
 region: sword-coast
 status: active
-source_notes: Placeholder examples for vault image workflow. Replace with campaign-approved art metadata.
+source: placeholder
+promptSummary: Placeholder examples for vault image workflow.
+notes: Legacy NPC path retained; new entries should use species-first folders.
 tags:
   - npc
-  - half-elf
+  - race/half-elf
+  - race-group/expanded
   - scout
-  - sword-coast
 ---
 
 # Raelin Silverleaf Image Index
 
 ## Usage
+
 - Primary portrait: `raelin-silverleaf-portrait.svg`
-- Token: `raelin-silverleaf-token.svg`
-- Alternate: `raelin-silverleaf-fullbody-v1.svg`
+- Secondary full body: `raelin-silverleaf-fullbody-v1.svg`
 
 ## Embed Example
 

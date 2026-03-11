@@ -2,15 +2,23 @@
 title: Person NPC Template
 image:
 imageRole: portrait
-tokenImage:
-alternateImages: []
+fullBodyImage:
 assetFolder:
 tags:
   - template
   - npc
+race:
+raceGroup:
+class:
+subclass:
+role:
+archetype:
 faction:
 region:
 status: active
+source:
+promptSummary:
+notes:
 ---
 
 # {{Person Name}}
@@ -33,20 +41,15 @@ One short paragraph (2-4 lines) on who this person is and why they matter in pla
 
 ## Image
 
-> Canonical image fields for NPC pages: `image`, `imageRole`, `tokenImage`, `alternateImages`, `assetFolder`.
+> Canonical image fields for NPC pages: `image`, `imageRole`, `fullBodyImage`, `assetFolder`.
 
-### Primary Portrait / Reference
+### Primary Portrait
 
 ![[{{image}}|320]]
 
-### Token (Optional)
+### Full-Body Reference (Optional)
 
-![[{{tokenImage}}|160]]
-
-### Alternate References (Optional)
-
-- ![[assets/images/npcs/{{person-slug}}/{{person-slug}}-fullbody-v1.svg|260]]
-- ![[assets/images/npcs/{{person-slug}}/{{person-slug}}-scene-v1.svg|260]]
+![[{{fullBodyImage}}|260]]
 
 ### Asset Folder / Metadata
 

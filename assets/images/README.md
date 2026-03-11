@@ -11,9 +11,8 @@ Central image storage for the lore vault.
 - `assets/images/factions/`
 - `assets/images/misc/`
 
-Use one folder per NPC/monster slug for scalable growth:
+NPC images use a species/race-first tree:
 
-- `assets/images/npcs/<slug>/`
-- `assets/images/monsters/<slug>/`
+- `assets/images/npcs/<raceGroup>/<race>/<npc-slug>/`
 
 For naming and metadata standards, follow [[reference/image-asset-system|Image Asset System]].
