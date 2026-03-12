@@ -13,6 +13,9 @@ High-value sites, hazards, and wonders that anchor adventures.
 - [[landmarks/waukeens-promenade|Waukeen's Promenade]]
 - [[landmarks/thaymount|Thaymount]]
 - [[landmarks/yuirwood|Yuirwood]]
+- [[landmarks/verdant-constellation-grove|Verdant Constellation Grove]]
+- [[landmarks/sapmoon-greenhouse|Sapmoon Greenhouse]]
+- [[landmarks/keeper-of-seeds-pavilion|Keeper of Seeds Pavilion]]
 
 ## Suggested Browse Paths
 - [[landmarks/undermountain|Undermountain]] → [[settlements/waterdeep-city|Waterdeep (City)]] → [[nations-realms/waterdeep|Waterdeep]]

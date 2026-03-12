@@ -31,6 +31,8 @@ Public figures, rulers, and influential operators likely to matter in play.
 - [[people/krenlin-auvryndar|Krenlin Auvryndar]]
 - [[people/neth-varr|Neth Varr]]
 - [[people/raelin-silverleaf|Raelin Silverleaf]] *(image system example)*
+- [[people/thalion-mosswake|Thalion Mosswake]]
+- [[people/sereia-dawnpetal|Sereia Dawnpetal]]
 
 ## Faction Quick Browse
 
