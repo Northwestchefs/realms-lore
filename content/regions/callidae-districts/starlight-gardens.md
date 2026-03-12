@@ -2,7 +2,43 @@
 
 ## Overview
 The Starlight Gardens are the sacred living heart of [[settlements/callidae|Callidae]], where druidic stewardship binds celestial magic to a vast underground forest.
-Ancient circles tend this sanctuary as both shrine and seed-vault, protecting rare life and preserving the district for future ages.
+Ancient circles tend this district as shrine, seed-vault, and civic threshold for anyone entering or departing the city.
+
+## The Head Druid and Exit Law
+- **Head Druid:** [[people/raelin-silverleaf|Raelin Silverleaf]], High Starlight Druid and Warden of the Garden Gates.
+- **Standing Rule:** No visitor leaves [[settlements/callidae|Callidae]] by sanctioned routes without speaking to Raelin or a sworn gate-druid.
+- **How it works at the table:**
+  - Departing parties report destination, intent, and expected return window.
+  - The gate-druid marks each traveler with a temporary pollen-sigil tied to the city wards.
+  - Refusal triggers a silent lock on outer paths: roots shift, mist thickens, and familiar passages fold back into the district.
+- **Why this law exists:** It protects concealment, tracks corruption leaving the city, and preserves ancient oath-customs between the Conclave and the grove circles.
+
+## Grove Circle Structure
+The Garden District is managed as a layered druid network under the broader authority of the [[factions/eldergrove-conclave|Eldergrove Conclave]].
+
+### Circle Hierarchy
+1. **Head Druid (Garden Warden):** Final authority on passage, quarantine, and sacred grove access.
+2. **Elder Circle:** Ancient druids who settle rite disputes and long-cycle policy.
+3. **Steward Circles:** Working circles that run cultivation, healing, beast-keeping, and ward maintenance.
+4. **Petal Novitiates:** Apprentices and initiates assigned to specific terraces and seasonal tasks.
+
+### Organized Druid List by Circle
+#### Gate & Oath Circle
+- [[people/raelin-silverleaf|Raelin Silverleaf]] — Head Druid, exit protocol authority, and emergency ritual commander.
+- [[people/belthas-rootwarden|Belthas Rootwarden]] — Path-warden who verifies safe route omens before departures.
+- [[people/theren-lumenroot|Theren Lumenroot]] — Escort druid for diplomatic exits and high-risk tunnel crossings.
+
+#### Seed & Cultivation Circle
+- [[people/irielle-fernglow|Irielle Fernglow]] — Senior terrace gardener and keeper of medicinal bloom rotations.
+- [[people/orryn-starbark|Orryn Starbark]] — Orchard druid responsible for crystal-fed root irrigation.
+- [[people/thalion-mosswake|Thalion Mosswake]] — Seed-warden focused on quarantine and lineage purity.
+- [[people/sereia-dawnpetal|Sereia Dawnpetal]] — Experimental bloom-caller for controlled starbloom grafts.
+
+#### Elder Canopy Circle
+- [[people/cyrala-moonshade|Cyrala Moonshade]] — Ancient druid adjudicating rite precedent.
+- [[people/aerendyl-mistbranch|Aerendyl Mistbranch]] — Mist-rite elder who oversees concealment ecology.
+- [[people/orinath-starfallow|Orinath Starfallow]] — Elder omen-reader for seasonal transition rulings.
+- [[people/melannor-fellbranch|Melannor Fellbranch]] — Crisis druid called when groves or wards are under direct threat.
 
 ## Environment
 - **Glowing star-crystals:** Veins of crystal in root-walls and cavern ceilings cast a steady silver-blue radiance.
@@ -20,51 +56,20 @@ Ancient circles tend this sanctuary as both shrine and seed-vault, protecting ra
 - [[landmarks/callidae/faerie-ring-hollow|Faerie Ring Hollow]]
 - [[landmarks/callidae/the-hidden-warren|The Hidden Warren]]
 
-## Creatures
-Native creatures often encountered in the gardens include:
-- Faerie dragons
-- Baby unicorns
-- Star moth spirits
-- Luminous frogs
-- Crystal beetles
-
-## Notable NPC
-[[people/raelin-silverleaf|Raelin Silverleaf]] is the High Starlight Druid and primary guardian of the gardens, overseeing sacred rites, creature sanctuaries, and emergency responses to magical corruption.
+## Creative Considerations for Campaign Play
+- **Departure leverage:** A party that needs to leave quickly may owe Raelin a favor instead of completing full oath formalities.
+- **False exits:** Enemies can forge pollen-sigils, creating tense investigations around who approved a departure.
+- **Circle politics:** Younger stewards may see the exit law as overreach, while elders treat it as non-negotiable survival doctrine.
+- **Moral pressure:** The druids can prevent a departure for good reason (plague, curse, pursuit), forcing hard choices between freedom and safety.
 
 ## Story Hooks
-- Several baby unicorns vanish from the Silverleaf herds, and druid trackers find only scattered crystal dust.
-- A circle of corrupted fey begins twisting moonpetal growth into thorny traps along pilgrim routes.
-- A desperate alchemist offers high coin for illegal harvesting rights to rare starroot blooms before a market deadline.
-- During an imminent celestial alignment, ritual sites must be secured before rival factions can hijack the omen.
-- A seasonal migration of star moth spirits fails to appear, threatening pollination cycles across the district.
-A broad district of cultivated groves and ritual orchards that sustains [[settlements/callidae|Callidae]] with food, medicine, and sacred plant traditions.
-
-## Atmosphere
-Soft silver light filters through vine-lattices, while drifting pollen-lanterns and low song rites mark each terrace shift.
-
-## District Use at the Table
-- **Easy Access:** Pilgrims, healers, and apprentices move openly on marked garden paths.
-- **Restricted Access:** Seed vaults and ritual beds require permission from the Keepers of Seeds.
-- **Common Tension:** Preservation-minded elders clash with younger cultivators who want to test riskier starbloom grafts.
-
-## Important Locations
-- [[landmarks/verdant-constellation-grove|Verdant Constellation Grove]] — A mapped orchard where star-linked trees are planted in sky-chart patterns.
-- [[landmarks/sapmoon-greenhouse|Sapmoon Greenhouse]] — A climate-tuned glasshouse for delicate medicinal blooms and emergency cuttings.
-- [[landmarks/keeper-of-seeds-pavilion|Keeper of Seeds Pavilion]] — Administrative and ritual center for seed law, custody, and distribution.
-
-## Notable NPCs
-- [[people/thalion-mosswake|Thalion Mosswake]] — Senior seed-warden focused on long-cycle stability and quarantine.
-- [[people/sereia-dawnpetal|Sereia Dawnpetal]] — Rising bloom-caller who pushes controlled experimentation with living crystal strains.
-
-## Encounter Seeds
-1. A dawn harvest team refuses to enter Terrace Seven after finding every blossom turned toward the ground overnight.
-2. Apprentices report hearing voices inside sealed seed urns; the voices accurately predict the next irrigation failure.
-3. A caravan from [[regions/callidae-districts/rootmarket|Rootmarket]] arrives with counterfeit glyph-tags mixed into genuine medicinal stock.
-4. Pollinator sprites begin marking outsiders with glowing dust that attracts territorial vine-serpents.
-5. Two respected gardeners accuse each other of sabotaging a starbloom graft before a major civic rite.
-6. A warded compost pit cracks open, revealing a preserved pre-warding seed cache that multiple circles claim by tradition.
+- Several baby unicorns vanish from the Silverleaf herds, and gate-druids suspend all departures until the herd-curse is traced.
+- A departing envoy returns within hours with no memory of leaving, carrying a pollen-sigil that should have faded in a day.
+- A rival faction bribes a novice to bypass the Head Druid, and the city wards begin misrouting innocent travelers.
+- During a celestial alignment, Raelin disappears just as three caravans request immediate departure rights.
 
 ## Related
 - [[settlements/callidae|Callidae]]
+- [[factions/eldergrove-conclave|Eldergrove Conclave]]
 - [[regions/callidae-districts/eldergrove|Eldergrove]]
 - [[regions/callidae-districts/rootmarket|Rootmarket]]

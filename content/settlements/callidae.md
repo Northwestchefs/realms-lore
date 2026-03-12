@@ -44,6 +44,11 @@ Callidae is governed by the [[factions/eldergrove-conclave|Eldergrove Conclave]]
 ## Defenses
 Callidae is concealed behind layered illusion barriers, veiled tunnel routes, and wards keyed to Starlight Elf bloodlines. Living forest guardians, crystal sentinels, and bound druidic wards defend the city from intruders and corruption.
 
+### Departure Protocol
+- all sanctioned exits route through [[callidae-districts/starlight-gardens|Starlight Gardens]]
+- travelers formally declare destination and purpose before a gate-druid
+- [[people/raelin-silverleaf|Raelin Silverleaf]], as Head Druid of the gardens, can delay or deny departure during quarantine, ward instability, or active threat windows
+
 ## Notable Government NPCs
 - [[people/nythra-valebloom|Nythra Valebloom]] — First Rootspeaker and presiding civic druid.
 - [[people/caelith-orreryn|Caelith Orreryn]] — Star Ledger Chancellor and legal omen archivist.
