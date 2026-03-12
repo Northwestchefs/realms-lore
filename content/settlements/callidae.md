@@ -25,7 +25,13 @@ Starlight Elf life in Callidae centers on:
 - preservation of ancient knowledge in living archives and oral star-chants
 
 ## Government
-Callidae is guided by a council of elder druids and star sages who interpret omens, mediate civic disputes, and steward long-cycle plans for the city and its surrounding caverns.
+Callidae is governed by the [[factions/eldergrove-conclave|Eldergrove Conclave]], a three-branch civic body of rootspeakers, star sages, and civic keepers. Together they interpret omens, adjudicate petitions, and maintain long-cycle plans for the city and surrounding cavern realms.
+
+### Governance in Practice
+- district circles debate first, then escalate binding issues to Conclave assemblies
+- emergency threats trigger Moonline Sessions for temporary decrees
+- law and precedent are preserved in star-chants and crystal records
+- security, ecology, and secrecy are treated as inseparable duties
 
 ## Districts
 - [[callidae-districts/starlight-gardens|Starlight Gardens]] — Terraced groves where luminous flora are cultivated for food, ritual, and healing.
@@ -38,10 +44,11 @@ Callidae is guided by a council of elder druids and star sages who interpret ome
 ## Defenses
 Callidae is concealed behind layered illusion barriers, veiled tunnel routes, and wards keyed to Starlight Elf bloodlines. Living forest guardians, crystal sentinels, and bound druidic wards defend the city from intruders and corruption.
 
-## Notable NPCs
-- [[people/raelin-silverleaf]]
-- [[people/aelthir-vaeloren]]
-- [[people/lunara-starweaver]]
+## Notable Government NPCs
+- [[people/nythra-valebloom|Nythra Valebloom]] — First Rootspeaker and presiding civic druid.
+- [[people/caelith-orreryn|Caelith Orreryn]] — Star Ledger Chancellor and legal omen archivist.
+- [[people/veyra-mossquill|Veyra Mossquill]] — Petition Marshal handling hearings and emergency writs.
+- [[people/thamior-glassward|Thamior Glassward]] — Warden-Captain overseeing civic defense networks.
 
 ## Creatures of the Caverns
 Commonly sighted allies and omens include:

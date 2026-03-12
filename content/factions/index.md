@@ -13,6 +13,7 @@ Power blocs, orders, councils, and covert networks that shape events across the 
 - [[factions/war-wizards|War Wizards]]
 - [[factions/flaming-fist|Flaming Fist]]
 - [[factions/wychlaran|Wychlaran]]
+- [[factions/eldergrove-conclave|Eldergrove Conclave]]
 
 ## Transnational and Expeditionary Factions
 
